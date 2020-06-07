@@ -6,8 +6,8 @@ import sys
 import os
 import configparser
 sys.path.append('../')
-from util.handle_init import handle_ini
-from util.handle_json import handle_jsonData
+from Apiautomation.util.handle_init import handle_ini
+from Apiautomation.util.handle_json import handle_jsonData
 
 class BaseRequest:
     # Requests发送Get请求

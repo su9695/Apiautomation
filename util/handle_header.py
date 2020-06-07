@@ -3,13 +3,13 @@ import sys
 import os
 import configparser
 sys.path.append('../')
-from util.handle_json import handle_json
+from Apiautomation.util.handle_json import handle_jsonData
 
 
 class HandleHeader:
     # 获取header值，json文件中读取不到，则返回默认header值
     def get_header(self, file_name):
-        headerData = handle_json.getJson_value("headers", file_name)
+        headerData = handle_jsonData.getJson_value("headers", file_name)
         return headerData
 
 
