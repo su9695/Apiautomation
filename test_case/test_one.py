@@ -5,6 +5,7 @@ import json
 import sys
 import os
 import configparser
+import allure
 sys.path.append('../')
 from Apiautomation.util.handle_json import handle_jsonData
 from Apiautomation.util.handle_init import handle_ini
