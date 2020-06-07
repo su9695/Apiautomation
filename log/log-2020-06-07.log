@@ -1,0 +1,7 @@
+[2020-06-07 17:30:42.375014] [INFO] [log.py] [<module>] [58] 测试日志模块
+[2020-06-07 18:20:01.348209] [INFO] [test_one.py] [test_requestOne] [27] 测试日志模块
+[2020-06-07 18:29:09.322435] [WARNING] [test_one.py] [test_requestOne] [27] 测试日志模块
+[2020-06-07 18:29:22.068341] [ERROR] [test_one.py] [test_requestOne] [27] 测试日志模块
+[2020-06-07 18:30:06.659545] [ERROR] [test_one.py] [test_requestOne] [27] 测试日志模块
+[2020-06-07 18:34:20.439145] [ERROR] [test_one.py] [test_requestOne] [28] 测试日志模块
+[2020-06-07 18:38:23.420015] [ERROR] [test_one.py] [test_requestOne] [29] 测试日志模块
