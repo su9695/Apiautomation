@@ -1,14 +1,15 @@
+# coding:utf-8
 import sys
 import os
 import configparser
-
+sys.path.append('../')
 
 class HandleInit:
     # 读取配置文件
     def load_ini(self):
         file_path = "/ApiTestProject/Apiautomation/config/server.ini"
         cf = configparser.ConfigParser()
-        cf.read(file_path, encoding="utf-8-sig")
+        cf.read(file_path, encoding='UTF-8')
         return cf
 
     # 获取ini里面对应key的value
