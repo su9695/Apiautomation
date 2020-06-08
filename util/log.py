@@ -2,6 +2,9 @@
 import os
 import sys
 import logbook
+sys.dont_write_bytecode = True
+curPath = os.path.abspath(os.path.dirname(__file__))
+BasePath = curPath[:curPath.find("Apiautomation\\")+len("Apiautomation\\")]
 from logbook import Logger,StreamHandler,FileHandler,TimedRotatingFileHandler
 from logbook.more import ColorizedStderrHandler
 
@@ -12,12 +15,12 @@ def log_type(record,handler):
         filename = os.path.split(record.filename)[-1],   # 文件名
         func_name = record.func_name,                    # 函数名
         lineno = record.lineno,                          # 行号
-        msg = record.message                             # 日志内容
+        msg = record.message                          # 日志内容
     )
     return log
 
 # 日志存放路径
-LOG_DIR = '/ApiTestProject/Apiautomation/log'
+LOG_DIR = BasePath + '/log'
 print(LOG_DIR)
 if not os.path.exists(LOG_DIR):
     os.makedirs(LOG_DIR)

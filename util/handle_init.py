@@ -2,12 +2,15 @@
 import sys
 import os
 import configparser
+sys.dont_write_bytecode = True
 sys.path.append('../')
+curPath = os.path.abspath(os.path.dirname(__file__))
+BasePath = curPath[:curPath.find("Apiautomation\\")+len("Apiautomation\\")]
 
 class HandleInit:
     # 读取配置文件
     def load_ini(self):
-        file_path = "/ApiTestProject/Apiautomation/config/server.ini"
+        file_path = BasePath + "/config/server.ini"
         cf = configparser.ConfigParser()
         cf.read(file_path, encoding='UTF-8')
         return cf

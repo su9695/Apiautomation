@@ -3,11 +3,10 @@ import requests
 import json
 import pytest
 import sys
+import ast
 import os
 import configparser
-sys.path.append('../')
-from Apiautomation.util.handle_init import handle_ini
-from Apiautomation.util.handle_json import handle_jsonData
+
 
 class BaseRequest:
     # Requests发送Get请求
@@ -24,14 +23,16 @@ class BaseRequest:
         if method == 'get':
             result = self.send_get(url,data,header)
         else:
-            result = self.send_post(url,data,header)
+            result = self.send_get(url,data,header)
         try:
             res = result.json()
         except Exception:
             res = {}
         return res
 
+# 实例
 baseRequest =BaseRequest()
+
 # if __name__ == "__main__":
 #     baseRequest =BaseRequest()
 #     result = baseRequest.run_main('get','https://www.imooc.com/search/history',"{'words':'Test'}","","{'Content-Type': 'application/json'}")
