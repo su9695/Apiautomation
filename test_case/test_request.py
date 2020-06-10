@@ -48,4 +48,3 @@ TestRequestOne()
 
 # if __name__ == "__main__":
 #     pytest.main(['-s','-v','test_request.py','-q', '--alluredir', '../reports'])
-#     #pytest.main()
