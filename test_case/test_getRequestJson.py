@@ -13,9 +13,9 @@ BasePath = curPath[:curPath.find("Apiautomation\\")+len("Apiautomation\\")]
 from Apiautomation.util.handle_json import handle_jsonData
 from Apiautomation.util.handle_init import handle_ini
 from Apiautomation.base.base_request import baseRequest
-from Apiautomation.util.log import run_log as logger
+from Apiautomation.util.handle_log import run_log as logger
 
-baseFileName = BasePath + '/test_data/getrequest.json'
+baseFileName = BasePath + '/test_data/jsondata/getRequest.json'
 
 
 @allure.epic('测试描述'.center(30, '*'))

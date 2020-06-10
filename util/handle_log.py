@@ -44,11 +44,11 @@ def init_logger():
 '''
 日志等级：
 critical    严重错误，会导致程序退出
-error	可控范围内的错误
-warning	警告信息
-notice	大多情况下希望看到的记录
-info	大多情况不希望看到的记录
-debug	调试程序时详细输出的记录
+error	    可控范围内的错误
+warning	    警告信息
+notice	    大多情况下希望看到的记录
+info	    大多情况不希望看到的记录
+debug	    调试程序时详细输出的记录
 '''
 # 实例化，默认调用
 logger = init_logger()

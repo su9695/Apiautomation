@@ -39,5 +39,5 @@ handle_jsonData = HandleJson()
 # if __name__ == "__main__":
 #     hjson = HandleJson()
 #     params = hjson.getJson_value(
-#         "params", '/ApiTestProject/Apiautomation/test_data/getrequest.json')
+#         "params", '/ApiTestProject/Apiautomation/test_data/jsondata/getrequest.json')
 #     print(params)
