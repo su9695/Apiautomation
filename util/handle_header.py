@@ -2,9 +2,8 @@
 import sys
 import os
 import configparser
-sys.dont_write_bytecode = True
 sys.path.append('../')
-from Apiautomation.util.handle_json import handle_jsonData
+from util.handle_json import handle_jsonData
 
 
 class HandleHeader:

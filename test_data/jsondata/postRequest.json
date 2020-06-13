@@ -1,7 +1,7 @@
 {
-	"name": "接口名",
-	"url": "/search/history",
-	"method": "Get",
+	"name": "post接口名",
+	"url": "/langdetect",
+	"method": "post",
 	"headers": {
 		"Content-Type": "application/json"
 	},
@@ -9,7 +9,7 @@
 
 	},
 	"params": {
-		"words": "Test"
+		"query": "测试"
 	},
 	"validate": [{
 		"eq": [

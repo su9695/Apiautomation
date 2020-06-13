@@ -5,7 +5,6 @@ import sys
 import os
 import json
 import configparser
-sys.dont_write_bytecode = True
 sys.path.append('../')
 
 class HandleJson:

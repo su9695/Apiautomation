@@ -2,7 +2,6 @@
 import sys
 import os
 import configparser
-sys.dont_write_bytecode = True
 sys.path.append('../')
 curPath = os.path.abspath(os.path.dirname(__file__))
 BasePath = curPath[:curPath.find("Apiautomation\\")+len("Apiautomation\\")]

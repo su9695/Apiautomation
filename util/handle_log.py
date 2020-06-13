@@ -2,7 +2,6 @@
 import os
 import sys
 import logbook
-sys.dont_write_bytecode = True
 curPath = os.path.abspath(os.path.dirname(__file__))
 BasePath = curPath[:curPath.find("Apiautomation\\")+len("Apiautomation\\")]
 from logbook import Logger,StreamHandler,FileHandler,TimedRotatingFileHandler
