@@ -1,0 +1,2 @@
+[2020-06-15 14:37:16.706087] [INFO] [test_postRequestJson.py] [test_requestOne] [41] 接口请求地址url：'https://fanyi.baidu.com/langdetect'，请求方法：'post'，请求header：{'Content-Type': 'application/json'}，请求参数：{'query': '测试'}，请求返回：{'error': 0, 'msg': 'success', 'lan': 'zh'}
+[2020-06-15 17:56:05.721692] [INFO] [test_postRequestJson.py] [test_requestOne] [41] 接口请求地址url：'https://fanyi.baidu.com/langdetect'，请求方法：'post'，请求header：{'Content-Type': 'application/json'}，请求参数：{'query': '测试'}，请求返回：{'error': 0, 'msg': 'success', 'lan': 'zh'}
