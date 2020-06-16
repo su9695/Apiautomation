@@ -14,3 +14,11 @@
 [2020-06-16 19:30:32.307988] [INFO] [test_getRequestYaml.py] [test_requestOne] [24] https://www.imooc.com
 [2020-06-16 19:32:49.667076] [INFO] [test_getRequestYaml.py] [test_requestOne] [24] https://www.imooc.com
 [2020-06-16 19:34:49.990556] [INFO] [test_getRequestYaml.py] [test_requestOne] [24] https://www.imooc.com
+[2020-06-16 22:17:03.215576] [INFO] [test_getRequestYaml.py] [test_requestOne] [24] https://www.imooc.com
+[2020-06-16 22:19:24.399125] [INFO] [test_getRequestYaml.py] [test_requestOne] [24] https://www.imooc.com
+[2020-06-16 22:19:24.402660] [ERROR] [test_getRequestYaml.py] [test_requestOne] [29] 'params'
+[2020-06-16 22:20:04.239017] [INFO] [test_getRequestYaml.py] [test_requestOne] [24] https://www.imooc.com
+[2020-06-16 22:20:04.242527] [ERROR] [test_getRequestYaml.py] [test_requestOne] [29] 0
+[2020-06-16 22:20:10.470880] [INFO] [test_getRequestYaml.py] [test_requestOne] [24] https://www.imooc.com
+[2020-06-16 22:23:00.952380] [ERROR] [test_getRequestYaml.py] [test_requestOne] [29] 'dict' object has no attribute 'params'
+[2020-06-16 22:23:11.245964] [ERROR] [test_getRequestYaml.py] [test_requestOne] [29] 'params'

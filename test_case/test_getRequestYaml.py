@@ -21,9 +21,10 @@ class TestRequestOne():
     def test_requestOne(self):
         try:
             baseurl = handle_ini.get_value('apiurl', 'imooc')
-            logger.info(baseurl)
             yamldata = handle_YamlData.load_yaml(baseFileName)
-            return yamldata
+            param1 = yamldata[0]['request']['params']
+            param2 = yamldata[1]['request']['params']
+            return param2
         except Exception as e:
             logger.error(e)
 
