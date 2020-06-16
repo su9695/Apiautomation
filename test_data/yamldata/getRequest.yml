@@ -1,0 +1,25 @@
+-   name: /search/history
+    request:
+        headers:
+            "Content-Type": "application/json"
+        method: GET
+        params:
+            words: Test
+        url: /search/history
+    validate:
+    -   eq:
+        - status_code
+        - 200
+
+-   name: /search/history
+    request:
+        headers:
+            "Content-Type": "application/json"
+        method: GET
+        params:
+            words: Python
+        url: /search/history
+    validate:
+    -   eq:
+        - status_code
+        - 200

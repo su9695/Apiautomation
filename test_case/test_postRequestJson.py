@@ -25,7 +25,7 @@ class TestRequestOne():
     @allure.title('测试标题')
     @allure.description('测试用例描述')
     @allure.testcase('测试用例地址:https://fanyi.baidu.com')
-    def test_requestOne(self, action):
+    def test_requestOne(self):
         
         try:
             baseurl = handle_ini.get_value('baidufanyiurl', 'baidu')
