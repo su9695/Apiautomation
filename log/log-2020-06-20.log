@@ -1,0 +1,7 @@
+[2020-06-20 09:54:16.299887] [ERROR] [test_getRequestYaml.py] [test_requestOne] [30] 'int' object is not iterable
+[2020-06-20 09:54:38.548036] [ERROR] [test_getRequestYaml.py] [test_requestOne] [30] 'int' object is not iterable
+[2020-06-20 09:55:14.180408] [ERROR] [test_getRequestYaml.py] [test_requestOne] [29] 'int' object is not iterable
+[2020-06-20 10:06:08.292759] [ERROR] [test_getRequestYaml.py] [test_requestOne] [41] unsupported operand type(s) for &: 'NoneType' and 'dict'
+[2020-06-20 10:06:39.091459] [INFO] [test_getRequestYaml.py] [test_requestOne] [38] 接口请求地址url：'https://www.imooc.com/search/history'，请求方法：'GET'，请求header：{'Content-Type': 'application/json'}，请求参数：{'words': 'Test'}，请求返回：{'result': 0, 'data': [{'word': 'testng'}, {'word': 'test'}, {'word': 'testlink'}, {'word': 'testn'}, {'word': 'testng教程'}], 'msg': '成功'}
+[2020-06-20 10:07:31.620889] [INFO] [test_getRequestYaml.py] [test_requestOne] [38] 接口请求地址url：'https://www.imooc.com/search/history'，请求方法：'GET'，请求header：{'Content-Type': 'application/json'}，请求参数：{'words': 'Test'}，请求返回：{'result': 0, 'data': [{'word': 'testng'}, {'word': 'test'}, {'word': 'testlink'}, {'word': 'testn'}, {'word': 'testng教程'}], 'msg': '成功'}
+[2020-06-20 10:07:31.891233] [INFO] [test_getRequestYaml.py] [test_requestOne] [38] 接口请求地址url：'https://www.imooc.com/search/history'，请求方法：'GET'，请求header：{'Content-Type': 'application/json'}，请求参数：{'words': 'Python'}，请求返回：{'result': 0, 'data': [{'word': 'python'}, {'word': 'python入门'}, {'word': 'python爬虫'}, {'word': 'python3'}, {'word': 'python数据分析'}], 'msg': '成功'}
