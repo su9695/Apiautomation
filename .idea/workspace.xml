@@ -20,21 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0506bbe0-9e26-4b10-a858-2d4ebe38a814" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/Apiautomation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Apiautomation.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/log-2020-06-08.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/log-2020-06-13.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/log-2020-06-15.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/log-2020-06-16.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_case/test_getRequestJson.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_case/test_getRequestJson.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_case/test_getRequestYaml.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_case/test_getRequestYaml.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/handle_excel.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/handle_header.py" beforeDir="false" afterPath="$PROJECT_DIR$/util/handle_header.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/handle_init.py" beforeDir="false" afterPath="$PROJECT_DIR$/util/handle_init.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/handle_json.py" beforeDir="false" afterPath="$PROJECT_DIR$/util/handle_json.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/handle_yaml.py" beforeDir="false" afterPath="$PROJECT_DIR$/util/handle_yaml.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/server.ini" beforeDir="false" afterPath="$PROJECT_DIR$/config/server.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/remarks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/remarks.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/handle_sql.py" beforeDir="false" afterPath="$PROJECT_DIR$/util/handle_db.py" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/venv/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,94 +39,6 @@
     <SUITE FILE_PATH="coverage/Apiautomation$test_getRequestJson.coverage" NAME="test_getRequestJson Coverage Results" MODIFIED="1592014340569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
     <SUITE FILE_PATH="coverage/Apiautomation$handle_operationexcel.coverage" NAME="handle_operationexcel Coverage Results" MODIFIED="1592638173484" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_case/test_getRequestYaml.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
-              <folding>
-                <element signature="e#15#30#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/util/handle_operationexcel.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
-              <folding>
-                <element signature="e#15#26#0" expanded="true" />
-                <element signature="e#455#574#0" />
-                <element signature="e#728#774#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_case/test_getRequestExcel.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-              <folding>
-                <element signature="e#15#30#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_case/test_getRequestJson.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-228">
-              <caret selection-end-line="16" selection-end-column="45" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test_case/test_postRequestJson.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-81" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_data/jsondata/getRequest.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="5" selection-start-line="10" selection-start-column="14" selection-end-line="12" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/util/handle_exceldata.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="241">
-              <caret line="41" column="36" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
-              <folding>
-                <element signature="e#14#64#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/util/handle_excelconfig.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -142,34 +46,8 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>get_data</find>
-      <find>OperetionJson</find>
-      <find>global_var</find>
-      <find>OperationMysql</find>
-      <find>get_url</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/test_case/test_getRequestJson.py" />
-        <option value="$PROJECT_DIR$/test_case/test_getRequestYaml.py" />
-        <option value="$PROJECT_DIR$/util/handle_excel.py" />
-        <option value="$PROJECT_DIR$/util/handle_json.py" />
-        <option value="$PROJECT_DIR$/util/handle_yaml.py" />
-        <option value="$PROJECT_DIR$/util/handle_init.py" />
-        <option value="$PROJECT_DIR$/util/handle_header.py" />
-        <option value="$PROJECT_DIR$/util/handle_excelconfig.py" />
-        <option value="$PROJECT_DIR$/util/handle_exceldata.py" />
-        <option value="$PROJECT_DIR$/test_case/test_getRequestExcel.py" />
-        <option value="$PROJECT_DIR$/util/handle_operationexcel.py" />
-      </list>
-    </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="1519" />
@@ -178,77 +56,6 @@
     <option name="height" value="1577" />
   </component>
   <component name="ProjectId" id="1dLPYDsU43i2puSXgmIjsxCeoWP" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Apiautomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Apiautomation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Apiautomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Apiautomation" type="462c0819:PsiDirectoryNode" />
-              <item name="base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Apiautomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Apiautomation" type="462c0819:PsiDirectoryNode" />
-              <item name="log" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Apiautomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Apiautomation" type="462c0819:PsiDirectoryNode" />
-              <item name="test_case" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Apiautomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Apiautomation" type="462c0819:PsiDirectoryNode" />
-              <item name="test_data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Apiautomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Apiautomation" type="462c0819:PsiDirectoryNode" />
-              <item name="test_data" type="462c0819:PsiDirectoryNode" />
-              <item name="exceldata" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Apiautomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Apiautomation" type="462c0819:PsiDirectoryNode" />
-              <item name="test_data" type="462c0819:PsiDirectoryNode" />
-              <item name="jsondata" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Apiautomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Apiautomation" type="462c0819:PsiDirectoryNode" />
-              <item name="test_data" type="462c0819:PsiDirectoryNode" />
-              <item name="yamldata" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Apiautomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Apiautomation" type="462c0819:PsiDirectoryNode" />
-              <item name="test_main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Apiautomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Apiautomation" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Apiautomation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
-  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -267,20 +74,8 @@
       <recent name="D:\ApiTestProject\Apiautomation\test_data\exceldata" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Python.handle_operationexcel">
-    <configuration name="handle_excel" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager">
+    <configuration name="handle_db" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Apiautomation" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -293,51 +88,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\ApiTestProject\Apiautomation\util\handle_operationexcel.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="handle_operationexcel" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Apiautomation" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/util" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/util/handle_operationexcel.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test_getRequestYaml" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Apiautomation" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_case" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_case/test_getRequestYaml.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/util/handle_db.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -348,9 +99,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.handle_operationexcel" />
-        <item itemvalue="Python.handle_excel" />
-        <item itemvalue="Python.test_getRequestYaml" />
+        <item itemvalue="Python.handle_db" />
       </list>
     </recent_temporary>
   </component>
@@ -379,59 +128,6 @@
     </task>
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20813000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="1013" y="318" width="1334" height="1051" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18652038" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.19586506" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.35032538" />
-      <window_info anchor="bottom" id="Python Console" order="12" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-    </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18652038" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.19586506" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.35032538" />
-      <window_info anchor="bottom" id="Python Console" order="12" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-    </layout-to-restore>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
@@ -440,14 +136,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -466,40 +155,65 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2094" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592306279895">
+    <state x="2094" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1592807095210">
       <screen x="1920" y="0" width="1440" height="860" />
     </state>
-    <state x="2094" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1592306279895" />
+    <state x="2094" y="85" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1592807095210" />
     <state x="2394" y="230" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1592214923900">
       <screen x="1920" y="0" width="1440" height="860" />
     </state>
     <state x="2394" y="230" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1592214923900" />
+    <state x="2444" y="336" key="#com.jetbrains.python.refactoring.move.PyMakeFunctionTopLevelDialog" timestamp="1592821081721">
+      <screen x="1920" y="0" width="1440" height="860" />
+    </state>
+    <state x="2444" y="336" key="#com.jetbrains.python.refactoring.move.PyMakeFunctionTopLevelDialog/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1592821081721" />
+    <state x="2480" y="319" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog" timestamp="1592821084059">
+      <screen x="1920" y="0" width="1440" height="860" />
+    </state>
+    <state x="2480" y="319" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1592821084059" />
     <state x="2420" y="185" key="FileChooserDialogImpl" timestamp="1592273507219">
       <screen x="1920" y="0" width="1440" height="860" />
     </state>
     <state x="2420" y="185" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1592273507219" />
-    <state width="1397" height="225" key="GridCell.Tab.0.bottom" timestamp="1592307297250">
+    <state width="1397" height="276" key="GridCell.Tab.0.bottom" timestamp="1592822918829">
       <screen x="1920" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="225" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1592307297250" />
-    <state width="1397" height="225" key="GridCell.Tab.0.center" timestamp="1592307297249">
+    <state width="1397" height="276" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1592822918829" />
+    <state width="1397" height="276" key="GridCell.Tab.0.center" timestamp="1592822918829">
       <screen x="1920" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="225" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1592307297249" />
-    <state width="1397" height="225" key="GridCell.Tab.0.left" timestamp="1592307297249">
+    <state width="1397" height="276" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1592822918829" />
+    <state width="1397" height="276" key="GridCell.Tab.0.left" timestamp="1592822918829">
       <screen x="1920" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="225" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1592307297249" />
-    <state width="1397" height="225" key="GridCell.Tab.0.right" timestamp="1592307297249">
+    <state width="1397" height="276" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1592822918829" />
+    <state width="1397" height="276" key="GridCell.Tab.0.right" timestamp="1592822918829">
       <screen x="1920" y="0" width="1440" height="860" />
     </state>
-    <state width="1397" height="225" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1592307297249" />
-    <state x="2141" y="74" key="SettingsEditor" timestamp="1592274213204">
+    <state width="1397" height="276" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1592822918829" />
+    <state width="1397" height="276" key="GridCell.Tab.1.bottom" timestamp="1592822918829">
       <screen x="1920" y="0" width="1440" height="860" />
     </state>
-    <state x="2141" y="74" key="SettingsEditor/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1592274213204" />
+    <state width="1397" height="276" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1592822918829" />
+    <state width="1397" height="276" key="GridCell.Tab.1.center" timestamp="1592822918829">
+      <screen x="1920" y="0" width="1440" height="860" />
+    </state>
+    <state width="1397" height="276" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1592822918829" />
+    <state width="1397" height="276" key="GridCell.Tab.1.left" timestamp="1592822918829">
+      <screen x="1920" y="0" width="1440" height="860" />
+    </state>
+    <state width="1397" height="276" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1592822918829" />
+    <state width="1397" height="276" key="GridCell.Tab.1.right" timestamp="1592822918829">
+      <screen x="1920" y="0" width="1440" height="860" />
+    </state>
+    <state width="1397" height="276" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1592822918829" />
+    <state x="2141" y="74" key="SettingsEditor" timestamp="1592808916884">
+      <screen x="1920" y="0" width="1440" height="860" />
+    </state>
+    <state x="2141" y="74" key="SettingsEditor/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1592808916884" />
     <state x="2342" y="28" width="596" height="804" key="find.popup" timestamp="1592274858792">
       <screen x="1920" y="0" width="1440" height="860" />
     </state>
@@ -521,183 +235,6 @@
     <SUITE FILE_PATH="coverage/Apiautomation$test_postRequestJson.coverage" NAME="test_postRequestJson Coverage Results" MODIFIED="1592214965032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
     <SUITE FILE_PATH="coverage/Apiautomation$test_getRequestJson.coverage" NAME="test_getRequestJson Coverage Results" MODIFIED="1592305859099" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
     <SUITE FILE_PATH="coverage/Apiautomation$test_getRequestYaml.coverage" NAME="test_getRequestYaml Coverage Results" MODIFIED="1592305937688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="4" selection-start-line="7" selection-end-line="7" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/server.ini">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/log/log-2020-06-16.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_data/jsondata/postRequest.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_data/yamldata/getRequest.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="25" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/log/log-2020-06-20.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/conftest.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://D:/apivenv/Lib/site-packages/xlutils/copy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/apivenv/Lib/site-packages/xlrd/sheet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="490" column="8" selection-start-line="490" selection-start-column="8" selection-end-line="490" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util/handle_yaml.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="9" selection-start-column="9" selection-end-column="9" />
-          <folding>
-            <element signature="e#15#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util/handle_json.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="9" selection-start-column="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base/base_request.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="23" column="48" lean-forward="true" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util/handle_init.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="9" selection-start-column="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util/handle_header.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util/handle_log.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util/handle_sql.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://D:/apivenv/Lib/site-packages/xlrd/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/apivenv/Lib/site-packages/xlwt/Workbook.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="375" column="8" selection-start-line="375" selection-start-column="8" selection-end-line="375" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/apivenv/Lib/site-packages/xlrd/book.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="696" column="8" selection-start-line="696" selection-start-column="8" selection-end-line="696" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util/handle_excelconfig.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util/handle_exceldata.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="41" column="36" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
-          <folding>
-            <element signature="e#14#64#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_data/jsondata/getRequest.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="5" selection-start-line="10" selection-start-column="14" selection-end-line="12" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util/handle_operationexcel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="14" column="26" selection-start-line="14" selection-start-column="26" selection-end-line="14" selection-end-column="26" />
-          <folding>
-            <element signature="e#15#26#0" expanded="true" />
-            <element signature="e#455#574#0" />
-            <element signature="e#728#774#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/test_getRequestExcel.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="22" lean-forward="true" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-          <folding>
-            <element signature="e#15#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/test_getRequestJson.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-228">
-          <caret selection-end-line="16" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/test_getRequestYaml.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
-          <folding>
-            <element signature="e#15#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/test_postRequestJson.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-81" />
-      </provider>
-    </entry>
+    <SUITE FILE_PATH="coverage/Apiautomation$handle_db.coverage" NAME="handle_db Coverage Results" MODIFIED="1592822863709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
   </component>
 </project>

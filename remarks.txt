@@ -12,16 +12,19 @@ Python+Requests+Pytest+Logbook+Allure
                 test_getrequest
                 test_postrequest
 	test_data（测试数据）
-                接口Json文件
+	    exceldata（excel数据文件）
+	    jsondata（json数据文件）
+	    yamldata（yaml数据文件）
 	test_main（主运行）
-                run_main.py
+        run_main.py
 	util（工具文件）
 		handle_json（处理json）
 		handle_db（处理数据库）（未做）
 		handle_header（处理header）
 		handle_cookie（处理cookie）（未做）
 		handle_init（处理配置）
-                处理xml文件（未做）
-                处理yml文件（未做）
-                处理excel文件（未做）
-                log（处理日志）
+        handle_yaml（处理yml文件）
+        handle_operationexcel（处理excel文件）
+        handle_exceldata（处理excel文件）
+        handle_excelconfig（处理excel文件）
+        handle_log（处理log日志）
