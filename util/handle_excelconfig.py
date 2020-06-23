@@ -1,53 +1,61 @@
-#coding=utf-8
-#封装Excel表中的常量方法
+# coding=utf-8
+# 封装Excel表中的常量方法
 class global_var:
-	#case_id
-	Id = '0'
-	request_name = '1'
-	url = '2'
-	run = '3'
-	request_way = '4'
-	header = '5'
-	case_depend = '6'
-	data_depend = '7'
-	field_depend = '8'
-	data = '9'
-	expect = '10'
-	result = '11'
-#获取caseid
-def get_id():
-	return global_var.Id
+    # case_id
+    Id = '0'
+    modular = '1'
+    run = '2'
+    preconditions = '3'
+    request_name = '4'
+    request_type = '5'
+    url = '6'
+    header = '7'
+    cookie = '8'
+    case_depend = '9'
+    data_depend = ''
+    field_depend = ''
+    request_data = ''
+    result = '11'
 
-#获取url
-def get_url():
-	return global_var.url
+
+def get_id():
+    return global_var.Id
+
+def get_modular():
+    return global_var.modular
 
 def get_run():
-	return global_var.run
+    return global_var.run
 
-def get_run_way():
-	return global_var.request_way
+def get_preconditions():
+    return global_var.preconditions
+
+def get_request_name():
+    return global_var.request_name
+
+def get_request_type():
+    return global_var.request_type
+
+def get_url():
+    return global_var.url
 
 def get_header():
-	return global_var.header
+    return global_var.header
+
+def get_cookie():
+    return global_var.cookie
 
 def get_case_depend():
-	return global_var.case_depend
+    return global_var.case_depend
 
 def get_data_depend():
-	return global_var.data_depend
+    return global_var.data_depend
 
 def get_field_depend():
-	return global_var.field_depend
+    return global_var.field_depend
 
-def get_data():
-	return global_var.data
-
-def get_expect():
-	return global_var.expect
+def get_result_data():
+    return global_var.result_data
 
 def get_result():
-	return global_var.result
-
-def get_header_value():
-	return global_var.header
+    return global_var.result

@@ -20,12 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0506bbe0-9e26-4b10-a858-2d4ebe38a814" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Apiautomation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Apiautomation.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/server.ini" beforeDir="false" afterPath="$PROJECT_DIR$/config/server.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/remarks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/remarks.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/handle_sql.py" beforeDir="false" afterPath="$PROJECT_DIR$/util/handle_db.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_case/test_getRequestExcel.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_case/test_getRequestExcel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/exceldata/case1.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/handle_db.py" beforeDir="false" afterPath="$PROJECT_DIR$/util/handle_db.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/handle_excelconfig.py" beforeDir="false" afterPath="$PROJECT_DIR$/util/handle_excelconfig.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

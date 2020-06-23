@@ -69,7 +69,8 @@ class Handledb:
             return (e.message)
 
 
-if __name__ == "__main__":
-    handledb = Handledb()
-    sql = "UPDATE mytest.myname set mytest.myname.name = 'iiii' WHERE mytest.myname.id=3"
-    result = handledb.execute(sql)
+handle_db = Handledb()
+# if __name__ == "__main__":
+#     handledb = Handledb()
+#     sql = "UPDATE mytest.myname set mytest.myname.name = 'iiii' WHERE mytest.myname.id=3"
+#     result = handledb.execute(sql)
