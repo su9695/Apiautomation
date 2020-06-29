@@ -9,7 +9,7 @@ BasePath = curPath[:curPath.find("Apiautomation\\")+len("Apiautomation\\")]
 class HandleInit:
     # 读取配置文件
     def load_ini(self):
-        file_path = BasePath + "/config/server.ini"
+        file_path = BasePath + "/config/config.ini"
         cf = configparser.ConfigParser()
         cf.read(file_path, encoding='UTF-8')
         return cf

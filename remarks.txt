@@ -3,7 +3,8 @@ Python+Requests+Pytest+Logbook+Allure
         base（基础操作）
                 base_request（Get/Post请求）
 	config（配置文件）
-                server.ini（接口地址及配置文件）
+                config.ini（接口地址及配置文件）
+                config.py（读取配置文件ini的类）
         log（测试日志）
                 log-2020-06-06.log（测试日志）
         reports（测试报告）

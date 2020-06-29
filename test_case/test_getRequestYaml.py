@@ -39,6 +39,7 @@ class TestRequestOne():
                 paramsData = yamldata['request']['params']
                 responseData = baseRequest.run_main(
                     method, url, paramsData, headers)
+
                 assert responseData['msg'] == "成功"
                 logger.info('接口请求地址url：%r，请求方法：%r，请求header：%r，请求参数：%r，请求返回：%r' % (
                     url, method, headers, paramsData, responseData))

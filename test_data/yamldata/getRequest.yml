@@ -7,9 +7,8 @@
             words: Test
         url: /search/history
     validate:
-    -   eq:
-        - status_code
-        - 200
+        status_code: 200
+
 
 -   name: /search/history
     request:
@@ -20,6 +19,4 @@
             words: Python
         url: /search/history
     validate:
-    -   eq:
-        - status_code
-        - 200
+        status_code: 200

@@ -20,11 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0506bbe0-9e26-4b10-a858-2d4ebe38a814" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/config/config.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_case/test_getRequestExcel.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_case/test_getRequestExcel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/exceldata/case1.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/handle_db.py" beforeDir="false" afterPath="$PROJECT_DIR$/util/handle_db.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/handle_excelconfig.py" beforeDir="false" afterPath="$PROJECT_DIR$/util/handle_excelconfig.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/server.ini" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/remarks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/remarks.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_case/test_getRequestYaml.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_case/test_getRequestYaml.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/yamldata/getRequest.yml" beforeDir="false" afterPath="$PROJECT_DIR$/test_data/yamldata/getRequest.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/handle_init.py" beforeDir="false" afterPath="$PROJECT_DIR$/util/handle_init.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,12 +49,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1519" />
-    <option name="y" value="477" />
-    <option name="width" value="2001" />
-    <option name="height" value="1577" />
   </component>
   <component name="ProjectId" id="1dLPYDsU43i2puSXgmIjsxCeoWP" />
   <component name="ProjectViewState">
@@ -124,11 +120,19 @@
       <workItem from="1592433911869" duration="7000" />
       <workItem from="1592485373689" duration="19000" />
       <workItem from="1592614364492" duration="17012000" />
+      <workItem from="1593419323610" duration="677000" />
+      <workItem from="1593421175356" duration="6000" />
+      <workItem from="1593421189928" duration="170000" />
+      <workItem from="1593421566021" duration="20000" />
+      <workItem from="1593421603400" duration="13000" />
+      <workItem from="1593421753538" duration="45000" />
+      <workItem from="1593421888624" duration="9000" />
+      <workItem from="1593421906793" duration="4219000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
