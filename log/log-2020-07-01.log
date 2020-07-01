@@ -1,0 +1,16 @@
+[2020-07-01 17:04:53.660336] [INFO] [test_getRequestJson.py] [test_requestOne] [72] {'name': '测试用例1', 'params': {'words': 'Test'}, 'validate': [{'eq': ['status_code', 200]}]}
+[2020-07-01 17:04:53.661334] [INFO] [test_getRequestJson.py] [test_requestOne] [72] {'name': '测试用例2', 'params': {'words': 'Test'}, 'validate': [{'eq': ['status_code', 200]}]}
+[2020-07-01 17:05:48.514484] [INFO] [test_getRequestJson.py] [test_requestOne] [72] {'name': '测试用例1', 'params': {'words': 'Test'}, 'validate': [{'eq': ['status_code', 200]}]}
+[2020-07-01 17:05:48.516478] [INFO] [test_getRequestJson.py] [test_requestOne] [72] {'name': '测试用例2', 'params': {'words': 'python'}, 'validate': [{'eq': ['status_code', 200]}]}
+[2020-07-01 17:12:26.921235] [INFO] [test_getRequestJson.py] [test_requestOne] [72] 用例名：'测试用例1', 请求参数：{'words': 'Test'}, 校验：[{'eq': ['status_code', 200]}]
+[2020-07-01 17:12:26.922232] [INFO] [test_getRequestJson.py] [test_requestOne] [72] 用例名：'测试用例2', 请求参数：{'words': 'python'}, 校验：[{'eq': ['status_code', 200]}]
+[2020-07-01 18:01:12.978918] [INFO] [test_getRequestJson.py] [test_requestOne] [52] 测试用例1
+[2020-07-01 18:01:12.980912] [INFO] [test_getRequestJson.py] [test_requestOne] [52] 测试用例2
+[2020-07-01 18:01:47.202467] [INFO] [test_getRequestJson.py] [test_requestOne] [52] 测试用例1
+[2020-07-01 18:01:47.202467] [INFO] [test_getRequestJson.py] [test_requestOne] [53] /search/history
+[2020-07-01 18:01:47.203489] [INFO] [test_getRequestJson.py] [test_requestOne] [52] 测试用例2
+[2020-07-01 18:01:47.204489] [INFO] [test_getRequestJson.py] [test_requestOne] [53] /search/history
+[2020-07-01 18:40:14.142218] [INFO] [api_request.py] [api_request] [25] {'name': 'get接口名', 'url': '/search/history', 'method': 'Get', 'headers': {'Content-Type': 'application/json'}, 'cookies': {}}
+[2020-07-01 18:40:14.144214] [INFO] [api_request.py] [api_request] [25] {'name': 'get接口名', 'url': '/search/history', 'method': 'Get', 'headers': {'Content-Type': 'application/json'}, 'cookies': {}}
+[2020-07-01 18:40:32.405680] [INFO] [api_request.py] [api_request] [25] {'name': 'get接口名', 'url': '/search/history', 'method': 'Get', 'headers': {'Content-Type': 'application/json'}, 'cookies': {}}
+[2020-07-01 18:40:32.407675] [INFO] [api_request.py] [api_request] [25] {'name': 'get接口名', 'url': '/search/history', 'method': 'Get', 'headers': {'Content-Type': 'application/json'}, 'cookies': {}}

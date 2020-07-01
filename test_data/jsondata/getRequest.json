@@ -1,20 +1,43 @@
 {
-	"name": "get接口名",
-	"url": "/search/history",
-	"method": "Get",
-	"headers": {
-		"Content-Type": "application/json"
-	},
-	"cookies": {
+    "config":{
+        "name":"get接口名",
+        "url":"/search/history",
+        "method":"Get",
+        "headers":{
+            "Content-Type":"application/json"
+        },
+        "cookies":{
 
-	},
-	"params": {
-		"words": "Test"
-	},
-	"validate": [{
-		"eq": [
-			"status_code",
-			200
-		]
-	}]
+        }
+    },
+    "testcase":[
+        {
+            "name":"测试用例1",
+            "params":{
+                "words":"Test"
+            },
+            "validate":[
+                {
+                    "eq":[
+                        "status_code",
+                        200
+                    ]
+                }
+            ]
+        },
+        {
+            "name":"测试用例2",
+            "params":{
+                "words":"python"
+            },
+            "validate":[
+                {
+                    "eq":[
+                        "status_code",
+                        200
+                    ]
+                }
+            ]
+        }
+    ]
 }
