@@ -25,6 +25,7 @@ class TestRequestOne():
     @allure.title('测试标题')
     @allure.description('测试用例描述')
     @allure.testcase('测试用例地址:https://fanyi.baidu.com')
+    @allure.tag('测试用例标签')
     def test_requestOne(self):
         
         try:
@@ -43,7 +44,7 @@ class TestRequestOne():
             logger.error(e)
 
 # 调用class
-TestRequestOne()
+#TestRequestOne()
 
 if __name__ == "__main__":
     #pytest.main()

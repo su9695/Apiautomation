@@ -1,2 +1,0 @@
-[2020-06-22 16:10:37.131618] [ERROR] [handle_db.py] [connectiondatabase] [30] connectDatabase failed
-[2020-06-22 18:41:51.117794] [ERROR] [handle_db.py] [execute] [52] execute failed: INSERT into mytest.myname (id,name) values (4,'ttt')

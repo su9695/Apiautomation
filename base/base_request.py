@@ -19,19 +19,20 @@ class BaseRequest:
         response = requests.post(url=url, data=data, headers=header)
         return response
 
-    def run_main(self,method,url,data,cookie=None,header=None):
-        if method == 'get':
-            result = self.send_get(url,data,header)
-        else:
-            result = self.send_get(url,data,header)
+    def run_main(self, method, url, data, cookie=None, header=None):
+        if method == 'GET':
+            result = self.send_get(url, data, header)
+        elif method == 'POST':
+            result = self.send_get(url, data, header)
         try:
             res = result.json()
         except Exception:
             res = {}
         return res
 
+
 # 实例
-baseRequest =BaseRequest()
+baseRequest = BaseRequest()
 
 # if __name__ == "__main__":
 #     baseRequest =BaseRequest()
