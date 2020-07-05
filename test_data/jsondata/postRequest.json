@@ -28,7 +28,7 @@
         {
             "name":"测试用例2",
             "params":{
-                "words":"ceshi"
+                "query":"python"
             },
             "validate":[
                 {

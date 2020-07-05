@@ -1,10 +1,6 @@
 # coding=utf-8
-import requests
-import pytest
 import sys
-import os
 import json
-import configparser
 sys.path.append('../')
 
 class HandleJson:

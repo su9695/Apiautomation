@@ -1,10 +1,8 @@
 # coding:utf-8
-import requests
 import pytest
 import json
 import sys
 import os
-import configparser
 import allure
 
 sys.path.append('../')
@@ -30,8 +28,7 @@ class TestRequestOne():
     def test_requestOne(self, case_data):
         try:
             apiResponseData = apiRequest.api_request(baseurl, testCaseData, case_data)
-            print(apiResponseData)
-            if(apiResponseData != None):
+            if (apiResponseData != None):
                 pass
             assert True == True
         except Exception as e:

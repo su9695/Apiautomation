@@ -1,24 +1,33 @@
 # coding:utf-8
 import requests
-import json
-import pytest
-import sys
-import ast
-import os
-import configparser
 
 
 class BaseRequest:
-    # Requests发送Get请求
+
     def send_get(self, url, data, cookie=None, header=None):
+        """
+        Requests发送Get请求
+        :param url：请求地址
+        :param data：Get请求参数
+        :param cookie：cookie参数
+        :param header：header参数
+        """
         response = requests.get(url=url, params=data, headers=header)
         return response
 
-    # Requests发送Post请求
     def send_post(self, url, data, cookie=None, header=None):
+        """
+        Requests发送Post请求
+        :param url：请求地址
+        :param data：Post请求参数
+        :param data：Post请求参数
+        :param cookie：cookie参数
+        :param header：header参数
+        """
         response = requests.post(url=url, data=data, headers=header)
         return response
 
+    # 主函数调用
     def run_main(self, method, url, data, cookie=None, header=None):
         if method == 'GET':
             result = self.send_get(url, data, header)
