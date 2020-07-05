@@ -20,18 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0506bbe0-9e26-4b10-a858-2d4ebe38a814" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Apiautomation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Apiautomation.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/base_request.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/base_request.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_case/test_getRequestExcel.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/test_case/test_getRequestJson.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_case/test_getRequestJson.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_case/test_postRequestJson.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_case/test_postRequestJson.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/jsondata/postRequest.json" beforeDir="false" afterPath="$PROJECT_DIR$/test_data/jsondata/postRequest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/handle_excelconfig.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/handle_exceldata.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/handle_json.py" beforeDir="false" afterPath="$PROJECT_DIR$/util/handle_json.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/handle_operationexcel.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/jsondata/getRequest.json" beforeDir="false" afterPath="$PROJECT_DIR$/test_data/jsondata/getRequest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/handle_checkresult.py" beforeDir="false" afterPath="$PROJECT_DIR$/util/handle_checkresult.py" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -57,8 +49,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_case/test_getRequestJson.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-115">
-              <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
+            <state>
+              <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
               <folding>
                 <element signature="e#16#29#0" expanded="true" />
               </folding>
@@ -66,11 +58,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/util/handle_checkresult.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+            <state relative-caret-position="209">
+              <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
               <folding>
                 <element signature="e#15#25#0" expanded="true" />
               </folding>
@@ -79,18 +71,27 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test_case/test_getRequestYaml.py">
+        <entry file="file://$PROJECT_DIR$/util/comparators.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-285" />
+            <state relative-caret-position="38">
+              <caret line="2" column="26" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="26" />
+            </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_data/jsondata/getRequest.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="741">
-              <caret line="39" column="13" lean-forward="true" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+            <state relative-caret-position="404">
+              <caret line="34" column="36" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="36" />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test_case/test_getRequestYaml.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-285" />
           </provider>
         </entry>
       </file>
@@ -111,19 +112,21 @@
       <list>
         <option value="$PROJECT_DIR$/test_data/jsondata/postRequest.json" />
         <option value="$PROJECT_DIR$/test_case/test_postRequestJson.py" />
-        <option value="$PROJECT_DIR$/test_case/test_getRequestJson.py" />
-        <option value="$PROJECT_DIR$/util/handle_checkresult.py" />
         <option value="$PROJECT_DIR$/base/base_request.py" />
         <option value="$PROJECT_DIR$/util/handle_json.py" />
         <option value="$PROJECT_DIR$/util/handle_operationexcel.py" />
+        <option value="$PROJECT_DIR$/util/comparators.py" />
+        <option value="$PROJECT_DIR$/test_data/jsondata/getRequest.json" />
+        <option value="$PROJECT_DIR$/test_case/test_getRequestJson.py" />
+        <option value="$PROJECT_DIR$/util/handle_checkresult.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="1486" />
-    <option name="y" value="394" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1033" />
+    <option name="y" value="270" />
     <option name="width" value="2241" />
-    <option name="height" value="1622" />
+    <option name="height" value="1688" />
   </component>
   <component name="ProjectId" id="1dLPYDsU43i2puSXgmIjsxCeoWP" />
   <component name="ProjectView">
@@ -307,15 +310,15 @@
       <workItem from="1593566523491" duration="17058000" />
       <workItem from="1593653492031" duration="3683000" />
       <workItem from="1593739574205" duration="15454000" />
-      <workItem from="1593917133491" duration="4991000" />
+      <workItem from="1593917133491" duration="8806000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4991000" />
+    <option name="totallyTimeSpent" value="8806000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="991" y="263" width="1494" height="1081" extended-state="0" />
+    <frame x="689" y="180" width="1494" height="1125" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
@@ -329,7 +332,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32771337" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.31319234" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -526,26 +529,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test_case/test_getRequestJson.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-115">
-          <caret column="14" lean-forward="true" selection-start-column="14" selection-end-column="14" />
-          <folding>
-            <element signature="e#16#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/util/handle_checkresult.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-          <folding>
-            <element signature="e#15#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test_data/yamldata/getRequest.yml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -563,8 +546,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test_data/jsondata/getRequest.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="39" column="13" lean-forward="true" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+        <state relative-caret-position="404">
+          <caret line="34" column="36" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/comparators.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test_case/test_getRequestJson.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+          <folding>
+            <element signature="e#16#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/handle_checkresult.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+          <folding>
+            <element signature="e#15#25#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -11,6 +11,7 @@ curPath = os.path.abspath(os.path.dirname(__file__))
 BasePath = curPath[:curPath.find("Apiautomation\\") + len("Apiautomation\\")]
 from util.handle_json import handle_jsonData
 from util.handle_init import handle_ini
+from util.handle_checkresult import handle_check_Result
 from base.base_request import baseRequest
 from util.handle_log import run_log as logger
 from util.handle_apirequest import apiRequest
@@ -29,8 +30,7 @@ class TestRequestOne():
         try:
             apiResponseData = apiRequest.api_request(baseurl, testCaseData, case_data)
             if (apiResponseData != None):
-                pass
-            assert True == True
+                handle_check_Result.check_result(apiResponseData, case_data)
         except Exception as e:
             logger.exception('测试用例请求失败，{}'.format(e))
 

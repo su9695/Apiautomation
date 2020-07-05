@@ -18,10 +18,9 @@
             },
             "validate":[
                 {
-                    "eq":[
-                        "status_code",
-                        200
-                    ]
+                    "check":"status_code",
+                    "comparator":"eq",
+                    "expect":"200"
                 }
             ]
         },
@@ -32,10 +31,9 @@
             },
             "validate":[
                 {
-                    "eq":[
-                        "status_code",
-                        200
-                    ]
+                    "check":"status_code",
+                    "comparator":"eq",
+                    "expect":"200"
                 }
             ]
         }
