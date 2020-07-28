@@ -1,0 +1,6 @@
+[2020-07-28 16:19:40.405631] [INFO] [handle_apirequest.py] [api_request] [48] 请求接口名：'get接口名'，请求地址：'https://www.imooc.com/search/history'，请求方法：'GET'，请求头：{'Content-Type': 'application/json'}，请求Cookies：{}
+[2020-07-28 16:19:40.405631] [INFO] [handle_apirequest.py] [api_request] [49] 请求接口名：'get接口名'，请求接口用例名：'测试用例1'，接口用例请求参数：{'words': 'Test'}
+[2020-07-28 16:19:40.662286] [INFO] [handle_apirequest.py] [api_request] [54] 请求接口名：'get接口名'，请求接口用例名：'测试用例1'，返回参数：{'result': 0, 'data': [{'word': 'testng'}, {'word': 'test'}, {'word': 'testlink'}, {'word': 'testn'}, {'word': 'testng教程'}], 'msg': '成功'}
+[2020-07-28 16:19:40.664281] [INFO] [handle_apirequest.py] [api_request] [48] 请求接口名：'get接口名'，请求地址：'https://www.imooc.com/search/history'，请求方法：'GET'，请求头：{'Content-Type': 'application/json'}，请求Cookies：{}
+[2020-07-28 16:19:40.664281] [INFO] [handle_apirequest.py] [api_request] [49] 请求接口名：'get接口名'，请求接口用例名：'测试用例2'，接口用例请求参数：{'words': 'python'}
+[2020-07-28 16:19:40.871767] [INFO] [handle_apirequest.py] [api_request] [54] 请求接口名：'get接口名'，请求接口用例名：'测试用例2'，返回参数：{'result': 0, 'data': [{'word': 'python'}, {'word': 'python入门'}, {'word': 'python爬虫'}, {'word': 'python3'}, {'word': 'python数据分析'}], 'msg': '成功'}
