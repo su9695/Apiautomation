@@ -18,9 +18,9 @@
             },
             "validate":[
                 {
-                    "check":"status_code",
+                    "check":"msg",
                     "comparator":"eq",
-                    "expect":"200"
+                    "expect":"成功"
                 }
             ]
         },
@@ -31,9 +31,14 @@
             },
             "validate":[
                 {
-                    "check":"status_code",
+                    "check":"msg",
                     "comparator":"eq",
-                    "expect":"200"
+                    "expect":"成功"
+                },
+                {
+                    "check":"msg",
+                    "comparator":"eq",
+                    "expect":"成功"
                 }
             ]
         }
