@@ -21,9 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0506bbe0-9e26-4b10-a858-2d4ebe38a814" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/log-2020-07-28.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/base_request.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/base_request.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_case/test_getRequestJson.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_case/test_getRequestJson.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/jsondata/getRequest.json" beforeDir="false" afterPath="$PROJECT_DIR$/test_data/jsondata/getRequest.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +55,10 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../ProjectTest/FlaskDemo" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -205,6 +207,7 @@
       <workItem from="1595552624580" duration="2000" />
       <workItem from="1595923821796" duration="6308000" />
       <workItem from="1595986689221" duration="3173000" />
+      <workItem from="1596591279216" duration="6007000" />
     </task>
     <servers />
   </component>
@@ -262,10 +265,10 @@
       <screen x="1920" y="0" width="1440" height="860" />
     </state>
     <state x="2338" y="39" key="#handle_checkresult/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1594693487552" />
-    <state x="2420" y="185" key="FileChooserDialogImpl" timestamp="1592273507219">
+    <state x="2420" y="185" key="FileChooserDialogImpl" timestamp="1596594903133">
       <screen x="1920" y="0" width="1440" height="860" />
     </state>
-    <state x="2420" y="185" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1592273507219" />
+    <state x="2420" y="185" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1596594903133" />
     <state width="1380" height="204" key="GridCell.Tab.0.bottom" timestamp="1595990462624">
       <screen x="1920" y="0" width="1440" height="860" />
     </state>
@@ -311,10 +314,10 @@
     </state>
     <state x="563" y="34" width="795" height="973" key="find.popup/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1593761638894" />
     <state x="2342" y="28" width="596" height="804" key="find.popup/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1595988599062" />
-    <state x="2303" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1595989703846">
+    <state x="2303" y="180" width="672" height="678" key="search.everywhere.popup" timestamp="1596611096798">
       <screen x="1920" y="0" width="1440" height="860" />
     </state>
-    <state x="2303" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1595989703846" />
+    <state x="2303" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1596611096798" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

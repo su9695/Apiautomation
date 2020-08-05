@@ -32,7 +32,7 @@ class BaseRequest:
         if method == 'GET':
             result = self.send_get(url, data, header)
         elif method == 'POST':
-            result = self.send_get(url, data, header)
+            result = self.send_post(url, data, header)
         try:
             res = result.json()
         except Exception:
