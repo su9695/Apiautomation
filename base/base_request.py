@@ -29,9 +29,10 @@ class BaseRequest:
 
     # 主函数调用
     def run_main(self, method, url, data, cookie=None, header=None):
-        if method == 'GET':
+        print(method, url, data)
+        if method.upper() == 'GET':
             result = self.send_get(url, data, header)
-        elif method == 'POST':
+        elif method.upper() == 'POST':
             result = self.send_post(url, data, header)
         try:
             res = result.json()

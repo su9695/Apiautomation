@@ -2,9 +2,12 @@
 import sys
 import os
 import configparser
+
 sys.path.append('../')
 curPath = os.path.abspath(os.path.dirname(__file__))
-BasePath = curPath[:curPath.find("Apiautomation\\")+len("Apiautomation\\")]
+BasePath = curPath[:curPath.find("Apiautomation\\") + len("Apiautomation\\")]
+from util.handle_log import run_log as logger
+
 
 class HandleInit:
     # 读取配置文件
@@ -21,8 +24,9 @@ class HandleInit:
         cf = self.load_ini()
         try:
             data = cf.get(node, key)
+            logger.info('获取配置文件的值，node：{},key：{}, data：{}'.format(node, key, data))
         except Exception:
-            print("没有获取到对应的值")
+            logger.exception('没有获取到对应的值，node：{},key：{}'.format(node, key))
             data = None
         return data
 
