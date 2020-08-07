@@ -10,6 +10,7 @@ curPath = os.path.abspath(os.path.dirname(__file__))
 BasePath = curPath[:curPath.find("Apiautomation\\") + len("Apiautomation\\")]
 from util.handle_getexceldata import GetData
 from base.base_request import baseRequest
+from util.handle_init import handle_ini
 
 file_name = '../test_data/exceldata/case1.xlsx'
 sheet_id = 0
@@ -29,8 +30,8 @@ class TestMainExcel():
                 url = excelData.get_request_url(i)
                 method = excelData.get_request_method(i)
                 request_data = json.loads(excelData.get_request_data(i))
-                #expect = json.loads(excelData.get_expcet_data(i))
-
+                header = json.loads(handle_ini.get_value('headerDefault', 'header'))
+                # expect = json.loads(excelData.get_expcet_data(i))
 
                 # header = self.data.is_header(i)
                 # depend_case = self.data.is_depend(i)
@@ -42,6 +43,7 @@ class TestMainExcel():
                 #     depend_key = self.data.get_depend_field(i)
                 #     request_data[depend_key] = depend_response_data
                 print(url, method, request_data, header)
+                print(type(header))
                 res = baseRequest.run_main(method, url, request_data, header)
                 # self.data.write_result(i, res)
                 # assert expect == res
