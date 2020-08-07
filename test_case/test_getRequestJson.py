@@ -31,8 +31,8 @@ class TestRequestOne():
     def test_requestOne(self, case_data):
         try:
             apiResponseData = apiRequest.api_request(baseurl, testCaseData, case_data)
-            """
-            pactverity——全量契约校验
+
+            # pactverity——全量契约校验
             config_contract_format = Like({
                 "msg": "成功",
                 "result": 0,
@@ -43,15 +43,11 @@ class TestRequestOne():
             mPactVerify = PactVerify(config_contract_format)
             try:
                 mPactVerify.verify(apiResponseData)
-                logger.info(
-                    'verify_result：{}，verify_info:{}'.format(mPactVerify.verify_result, mPactVerify.verify_info))
+                logger.info('verify_result：{}，verify_info:{}'.format(mPactVerify.verify_result, mPactVerify.verify_info))
                 assert mPactVerify.verify_result == True
             except Exception:
                 err_msg = '契约校验错误'
-                logger.exception('测试用例契约校验失败，verify_result：{}，verify_info:{}'.format(mPactVerify.verify_result,
-                                                                                     mPactVerify.verify_info))
-            """
-
+                logger.exception('测试用例契约校验失败，verify_result：{}，verify_info:{}'.format(mPactVerify.verify_result, mPactVerify.verify_info))
         except Exception as e:
             logger.exception('测试用例请求失败，{}'.format(e))
 
@@ -59,13 +55,7 @@ class TestRequestOne():
 # 调用class
 TestRequestOne()
 
-if __name__ == "__main__":
-    # 生成配置信息 "-s 代表可以将执行成功的案例日志打印出来 ; -q+文件执行路径 代表只需要执行的文件"
-    # pytest.main(['-s','-v','test_getRequestJson.py','-q', '--alluredir', '../reports/xml'])
-    pytest.main(['-v', 'test_getRequestJson.py'])
-    # os模块运行allure命令，来生成html格式的报告（根据刚刚生成的配置信息）
-    os.system("allure-2.12.0/bin/allure.bat "
-              "generate "
-              "../report/xml "
-              "-o "
-              "../report/html")
+# if __name__ == "__main__":
+#     # 生成配置信息 "-s 代表可以将执行成功的案例日志打印出来 ; -q+文件执行路径 代表只需要执行的文件"
+#     pytest.main(['-s', '-v', 'test_getRequestJson.py', '-q', '--alluredir', '../reports/result'])
+#     # pytest.main(['-v', 'test_getRequestJson.py'])

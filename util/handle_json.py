@@ -1,7 +1,9 @@
 # coding=utf-8
 import sys
 import json
+
 sys.path.append('../')
+
 
 class HandleJson:
     # 读取json文件

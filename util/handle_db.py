@@ -21,8 +21,6 @@ class Handledb:
     def connectiondatabase(self):
         dbconfig = handle_ini.get_value('db_config', 'dbconfig')
         db_config = json.loads(dbconfig)
-        # print(db_config['host'], db_config['user'], db_config['password'], db_config['database'],
-        #       db_config['charset'])
         try:
             self.conn = pymysql.connect(db_config['host'], db_config['user'],
                                         db_config['password'], db_config['database'], charset=db_config['charset'])
@@ -65,8 +63,8 @@ class Handledb:
             return result
         except Exception as e:
             logger.error("execute failed：" + sql + params)
-            logger.error(e.message)
-            return (e.message)
+            logger.error(e)
+            return (e)
 
 
 handle_db = Handledb()
