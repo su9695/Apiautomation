@@ -1,6 +1,7 @@
 # coding:utf-8
 import requests
 import allure
+import json
 from util.handle_log import run_log as logger
 
 
@@ -30,9 +31,9 @@ class BaseRequest:
         :param header：header参数
         """
         if cookie is not None:
-            response = requests.post(url=url, data=data, cookies=cookie, headers=header)
+            response = requests.post(url=url, json=data, cookies=cookie, headers=header)
         else:
-            response = requests.post(url=url, data=data, headers=header)
+            response = requests.post(url=url, json=data, headers=header)
         return response
 
         # 主函数调用

@@ -1,19 +1,18 @@
 {
     "config":{
-        "name":"判断是否是黑名单接口和获取黑名单原因接口",
-        "url":"/isBlack",
+        "name":"在线、电话、投诉三个渠道拉黑原因列表接口",
+        "url":"/listReason",
         "method":"POST",
         "headers":{
-            "Content-Type":"application/json"
-        },
+            "Content-Type":"application/json",
+            "authToken": "tcwlservice.feedback.admin"
+        }
     },
     "testcase":[
         {
-            "name":"在线渠道判断是否是黑名单接口",
+            "name":"在线渠道拉黑原因列表接口",
             "params":{
-                "channelType": 1,
-                "guestId": "13b23243-56db-44aa-9a41-a6a57430911e",
-                "mobilePhone": "18051616115"
+                "channelType": 1
             },
             "validate":[
                 {
@@ -24,11 +23,9 @@
             ]
         },
         {
-            "name":"电话渠道判断是否是黑名单接口",
+            "name":"电话渠道拉黑原因列表接口",
             "params":{
-                "channelType": 2,
-                "guestId": "",
-                "mobilePhone": "18051616115"
+                "channelType": 2
             },
             "validate":[
                 {

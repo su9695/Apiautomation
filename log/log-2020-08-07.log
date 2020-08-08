@@ -1,8 +1,0 @@
-[2020-08-07 16:46:17.267223] [INFO] [handle_init.py] [get_value] [27] 获取配置文件的值，node：header,key：headerDefault, data：{"Content-Type": "application/json"}
-[2020-08-07 16:46:17.268220] [ERROR] [base_request.py] [run_main] [50] 请求主函数调用失败：'str' object has no attribute 'items'
-[2020-08-07 16:46:17.269217] [INFO] [handle_init.py] [get_value] [27] 获取配置文件的值，node：header,key：headerDefault, data：{"Content-Type": "application/json"}
-[2020-08-07 16:46:17.269217] [ERROR] [base_request.py] [run_main] [50] 请求主函数调用失败：'str' object has no attribute 'items'
-[2020-08-07 16:47:16.964995] [INFO] [handle_init.py] [get_value] [27] 获取配置文件的值，node：header,key：headerDefault, data：{"Content-Type": "application/json"}
-[2020-08-07 16:47:16.965995] [ERROR] [base_request.py] [run_main] [50] 请求主函数调用失败：'str' object has no attribute 'items'
-[2020-08-07 16:47:16.966993] [INFO] [handle_init.py] [get_value] [27] 获取配置文件的值，node：header,key：headerDefault, data：{"Content-Type": "application/json"}
-[2020-08-07 16:47:16.966993] [ERROR] [base_request.py] [run_main] [50] 请求主函数调用失败：'str' object has no attribute 'items'

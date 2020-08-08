@@ -1,0 +1,43 @@
+{
+    "config":{
+        "name":"判断是否是黑名单接口",
+        "url":"/isBlack",
+        "method":"POST",
+        "headers":{
+            "Content-Type":"application/json",
+            "authToken": "tcwlservice.feedback.admin"
+        }
+    },
+    "testcase":[
+        {
+            "name":"在线渠道判断是否是黑名单接口",
+            "params":{
+                "channelType": 1,
+                "guestId": "13b23243-56db-44aa-9a41-a6a57430911e",
+                "mobilePhone": "18051616115"
+            },
+            "validate":[
+                {
+                    "check":"status_code",
+                    "comparator":"eq",
+                    "expect":"200"
+                }
+            ]
+        },
+        {
+            "name":"电话渠道判断是否是黑名单接口",
+            "params":{
+                "channelType": 2,
+                "guestId": "13b23243-56db-44aa-9a41-a6a57430911e",
+                "mobilePhone": "18051616115"
+            },
+            "validate":[
+                {
+                    "check":"status_code",
+                    "comparator":"eq",
+                    "expect":"200"
+                }
+            ]
+        }
+    ]
+}
