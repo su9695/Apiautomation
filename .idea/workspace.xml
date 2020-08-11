@@ -19,10 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0506bbe0-9e26-4b10-a858-2d4ebe38a814" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/test_data/exceldata/case1.xls" beforeDir="false" afterPath="$PROJECT_DIR$/test_data/exceldata/case1.xls" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_main/run_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_main/run_main.py" afterDir="false" />
-    </list>
+    <list default="true" id="0506bbe0-9e26-4b10-a858-2d4ebe38a814" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
