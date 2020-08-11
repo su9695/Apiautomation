@@ -1,9 +1,6 @@
 # coding:utf-8
 from util.handle_exceldata import OperationExcel
 from util.handle_excelconfig import *
-# from util.operation_json import OperetionJson
-#from util.handle_db import Handledb
-
 
 class GetData:
     def __init__(self, file_name, sheet_id):
@@ -23,15 +20,6 @@ class GetData:
         else:
             flag = False
         return flag
-
-    # # 是否携带header
-    # def is_header(self, row):
-    #     col = int(get_header())
-    #     header = self.opera_excel.get_cell_value(row, col)
-    #     if header != '':
-    #         return header
-    #     else:
-    #         return None
 
     # 获取请求方式
     def get_request_method(self, row):
@@ -53,12 +41,6 @@ class GetData:
             return None
         return data
 
-    # # 通过获取关键字拿到data数据
-    # def get_data_for_json(self, row):
-    #     #opera_json = ()
-    #     request_data = get_data(self.get_request_data(row))
-    #     return request_data
-
     # 获取预期结果
     def get_expcet_data(self, row):
         col = int(get_expect())
@@ -67,13 +49,6 @@ class GetData:
             return None
         return expect
 
-    # # 通过sql获取预期结果
-    # def get_expcet_data_for_mysql(self, row):
-    #     op_mysql = Handledb()
-    #     sql = self.get_expcet_data(row)
-    #     res = op_mysql.execute(sql)
-    #     return res.decode('unicode-escape')
-
     def write_result(self, row, value):
         col = int(get_result())
         self.opera_excel.write_value(row, col, value)
@@ -81,30 +56,3 @@ class GetData:
     def write_pass(self, row, value):
         col = int(get_is_pass())
         self.opera_excel.write_value(row, col, value)
-
-    # 获取依赖数据的key
-    def get_depend_key(self, row):
-        col = int(get_data_depend())
-        depent_key = self.opera_excel.get_cell_value(row, col)
-        if depent_key == "":
-            return None
-        else:
-            return depent_key
-
-    # 判断是否有case依赖
-    def is_depend(self, row):
-        col = int(get_case_depend())
-        depend_case_id = self.opera_excel.get_cell_value(row, col)
-        if depend_case_id == "":
-            return None
-        else:
-            return depend_case_id
-
-    # 获取数据依赖字段
-    def get_depend_field(self, row):
-        col = int(get_field_depend())
-        data = self.opera_excel.get_cell_value(row, col)
-        if data == "":
-            return None
-        else:
-            return data

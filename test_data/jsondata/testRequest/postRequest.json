@@ -1,0 +1,41 @@
+{
+    "config":{
+        "name":"post接口名",
+        "url":"/langdetect",
+        "method":"POST",
+        "headers":{
+            "Content-Type":"application/json"
+        },
+        "cookies":{
+
+        }
+    },
+    "testcase":[
+        {
+            "name":"测试用例1",
+            "params":{
+                "query":"测试"
+            },
+            "validate":[
+                {
+                    "check":"status_code",
+                    "comparator":"eq",
+                    "expect":"200"
+                }
+            ]
+        },
+        {
+            "name":"测试用例2",
+            "params":{
+                "query":"python"
+            },
+            "validate":[
+                {
+                    "check":"status_code",
+                    "comparator":"eq",
+                    "expect":"200"
+                }
+            ]
+        }
+    ]
+}

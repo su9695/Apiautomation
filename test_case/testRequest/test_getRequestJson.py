@@ -1,10 +1,8 @@
 # coding:utf-8
 import pytest
-import json
 import sys
 import os
 import allure
-import atexit
 
 sys.path.append('../')
 sys.path.append('../Apiautomation')
@@ -15,38 +13,32 @@ from util.handle_init import handle_ini
 from util.handle_log import run_log as logger
 from util.handle_apirequest import apiRequest
 from pactverify.matchers import Matcher, Like, EachLike, Term, Enum, PactVerify
+from util.handle_comparators import comparatorsTest
 
-baseurl = handle_ini.get_value('blackListBaseUrl', 'blackList')
-baseFileName = BasePath + '/test_data/jsondata/blackList/blackReason.json'
+baseurl = handle_ini.get_value('apiurl', 'imooc')
+baseFileName = BasePath + '/test_data/jsondata/testRequest/getRequest.json'
 testCaseData = handle_jsonData.load_json(baseFileName)
 
 
-@allure.feature('黑名单模块')
+@allure.feature('测试模块')
 class TestRequestOne():
-    @allure.title('拉黑原因列表接口')
-    @allure.testcase('黑名单地址：http://tcwlservice.17usoft.com/csc/api/blackList')
+    @allure.title('测试标题')
+    @allure.testcase('测试地址：https://www.imooc.com')
     @pytest.mark.parametrize('case_data', testCaseData['testcase'])
     def test_requestOne(self, case_data):
         try:
-            apiResponseData = apiRequest.api_request(baseurl, testCaseData, case_data)
-
+            api_response_data = apiRequest.api_request(baseurl, testCaseData, case_data)
             # pactverity——全量契约校验
             config_contract_format = Like({
-                "code": 10000,
-                "msg": "ok",
+                "msg": "成功",
+                "result": 0,
                 "data": EachLike({
-                    "id": 148,
-                    "reason": "恶意套取信息",
-                    "productId": 0,
-                    "sourceType": 0,
-                    "channelType": 1,
-                    "blackTerm": Like({'': ''}, nullable=True)
+                    "word": Like("testng")
                 })
             })
             mPactVerify = PactVerify(config_contract_format)
             try:
-                pass
-                mPactVerify.verify(apiResponseData)
+                mPactVerify.verify(api_response_data)
                 logger.info(
                     'verify_result：{}，verify_info:{}'.format(mPactVerify.verify_result, mPactVerify.verify_info))
                 assert mPactVerify.verify_result == True
@@ -54,8 +46,18 @@ class TestRequestOne():
                 err_msg = '契约校验错误'
                 logger.exception('测试用例契约校验失败，verify_result：{}，verify_info:{}'.format(mPactVerify.verify_result,
                                                                                      mPactVerify.verify_info))
+            try:
+                for case_validate in case_data['validate']:
+                    logger.info('断言期望相关参数：check：{},comparator：{},expect：{}'.format(case_validate['check'],
+                                                                                   case_validate['comparator'],
+                                                                                   case_validate['expect']))
+                    comparatorsTest.comparators_Assert(api_response_data, case_validate['check'],
+                                                       case_validate['comparator'], case_validate['expect'])
+                    logger.info('测试用例断言成功')
+            except Exception as e:
+                logger.exception('测试用例断言失败')
         except Exception as e:
-            logger.exception('测试用例请求失败，{}'.format(e))
+            logger.exception('测试用例请求失败，原因：{}'.format(e))
 
 
 # 调用class
@@ -63,5 +65,5 @@ TestRequestOne()
 
 if __name__ == "__main__":
     #     # 生成配置信息 "-s 代表可以将执行成功的案例日志打印出来 ; -q+文件执行路径 代表只需要执行的文件"
-    #     pytest.main(['-s', '-v', 'isBlack.py', '-q', '--alluredir', '../reports/result'])
-    pytest.main(['-v', 'blackReason.py'])
+    #     pytest.main(['-s', '-v', 'test_getRequestJson.py', '-q', '--alluredir', '../reports/result'])
+    pytest.main(['-v', 'test_getRequestJson.py'])

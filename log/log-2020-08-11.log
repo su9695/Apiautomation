@@ -1,0 +1,19 @@
+[2020-08-11 09:12:55.818963] [INFO] [handle_init.py] [get_value] [27] 获取配置文件的值，node：header,key：headerDefault, data：{"Content-Type": "application/json"}
+[2020-08-11 09:12:56.102467] [INFO] [test_mainExcel.py] [test_mainExcel] [41] 不相同
+[2020-08-11 09:15:02.971981] [INFO] [handle_init.py] [get_value] [27] 获取配置文件的值，node：header,key：headerDefault, data：{"Content-Type": "application/json"}
+[2020-08-11 09:15:30.045732] [INFO] [handle_init.py] [get_value] [27] 获取配置文件的值，node：header,key：headerDefault, data：{"Content-Type": "application/json"}
+[2020-08-11 09:15:34.840158] [INFO] [handle_init.py] [get_value] [27] 获取配置文件的值，node：header,key：headerDefault, data：{"Content-Type": "application/json"}
+[2020-08-11 09:16:22.872665] [INFO] [handle_init.py] [get_value] [27] 获取配置文件的值，node：header,key：headerDefault, data：{"Content-Type": "application/json"}
+[2020-08-11 09:17:30.523304] [INFO] [handle_init.py] [get_value] [27] 获取配置文件的值，node：header,key：headerDefault, data：{"Content-Type": "application/json"}
+[2020-08-11 09:19:00.569444] [INFO] [handle_init.py] [get_value] [27] 获取配置文件的值，node：header,key：headerDefault, data：{"Content-Type": "application/json"}
+[2020-08-11 09:19:33.463393] [INFO] [handle_init.py] [get_value] [27] 获取配置文件的值，node：header,key：headerDefault, data：{"Content-Type": "application/json"}
+[2020-08-11 09:19:48.693602] [INFO] [handle_init.py] [get_value] [27] 获取配置文件的值，node：header,key：headerDefault, data：{"Content-Type": "application/json"}
+[2020-08-11 09:20:15.524543] [INFO] [handle_init.py] [get_value] [27] 获取配置文件的值，node：header,key：headerDefault, data：{"Content-Type": "application/json"}
+[2020-08-11 09:20:32.165545] [INFO] [handle_init.py] [get_value] [27] 获取配置文件的值，node：header,key：headerDefault, data：{"Content-Type": "application/json"}
+[2020-08-11 09:22:23.125062] [INFO] [handle_init.py] [get_value] [27] 获取配置文件的值，node：header,key：headerDefault, data：{"Content-Type": "application/json"}
+[2020-08-11 09:22:38.653047] [INFO] [handle_init.py] [get_value] [27] 获取配置文件的值，node：header,key：headerDefault, data：{"Content-Type": "application/json"}
+[2020-08-11 09:24:47.509795] [INFO] [handle_init.py] [get_value] [27] 获取配置文件的值，node：header,key：headerDefault, data：{"Content-Type": "application/json"}
+[2020-08-11 09:25:02.080096] [INFO] [handle_init.py] [get_value] [27] 获取配置文件的值，node：header,key：headerDefault, data：{"Content-Type": "application/json"}
+[2020-08-11 09:25:35.128174] [INFO] [handle_init.py] [get_value] [27] 获取配置文件的值，node：header,key：headerDefault, data：{"Content-Type": "application/json"}
+[2020-08-11 09:25:35.501177] [INFO] [test_mainExcel.py] [test_mainExcel] [39] 相同
+[2020-08-11 09:32:19.303403] [INFO] [handle_init.py] [get_value] [27] 获取配置文件的值，node：header,key：headerDefault, data：{"Content-Type": "application/json"}

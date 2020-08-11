@@ -11,14 +11,13 @@ curPath = os.path.abspath(os.path.dirname(__file__))
 BasePath = curPath[:curPath.find("Apiautomation\\") + len("Apiautomation\\")]
 from util.handle_json import handle_jsonData
 from util.handle_init import handle_ini
-from base.base_request import baseRequest
 from util.handle_log import run_log as logger
 from util.handle_apirequest import apiRequest
 from pactverify.matchers import Matcher, Like, EachLike, Term, Enum, PactVerify
-from pact import Consumer, Provider
+from util.handle_comparators import comparatorsTest
 
 baseurl = handle_ini.get_value('baidufanyiurl', 'baidu')
-baseFileName = BasePath + '/test_data/jsondata/postRequest.json'
+baseFileName = BasePath + '/test_data/jsondata/testRequest/postRequest.json'
 testCaseData = handle_jsonData.load_json(baseFileName)
 
 
@@ -29,7 +28,7 @@ class TestRequestOne():
     @pytest.mark.parametrize('case_data', testCaseData['testcase'])
     def test_requestOne(self, case_data):
         try:
-            apiResponseData = apiRequest.api_request(baseurl, testCaseData, case_data)
+            api_response_data = apiRequest.api_request(baseurl, testCaseData, case_data)
             # pactverity——全量契约校验
             config_contract_format = Like({
                 "error": 0,
@@ -38,16 +37,24 @@ class TestRequestOne():
             })
             mPactVerify = PactVerify(config_contract_format)
             try:
-                mPactVerify.verify(apiResponseData)
+                mPactVerify.verify(api_response_data)
                 logger.info(
                     'verify_result：{}，verify_info:{}'.format(mPactVerify.verify_result, mPactVerify.verify_info))
                 assert mPactVerify.verify_result == True
-            except Exception:
-                err_msg = '契约校验错误'
-                logger.exception('测试用例契约校验失败，verify_result：{}，verify_info:{}'.format(mPactVerify.verify_result,
-                                                                                     mPactVerify.verify_info))
-        except Exception as e:
-            logger.exception('测试用例请求失败，{}'.format(e))
+            except Exception as e:
+                logger.exception(
+                    '测试用例契约校验失败，verify_result：{}，verify_info:{}，exception:{}'.format(mPactVerify.verify_result,
+                                                                                     mPactVerify.verify_info, e))
+            try:
+                for case_validate in case_data['validate']:
+                    logger.info('断言期望相关参数：check：{},comparator：{},expect：{}'.format(case_validate['check'],
+                                                                                   case_validate['comparator'],
+                                                                                   case_validate['expect']))
+                    comparatorsTest.comparators_Assert(api_response_data, case_validate['check'],
+                                                       case_validate['comparator'], case_validate['expect'])
+                    logger.info('测试用例断言成功')
+            except Exception as e:
+                logger.exception('测试用例断言失败')
         except Exception as e:
             logger.exception('测试用例请求失败，{}'.format(e))
 
@@ -57,3 +64,4 @@ TestRequestOne()
 
 # if __name__ == "__main__":
 #     pytest.main(['-s', '-v', 'test_postRequestJson.py', '-q', '--alluredir', '../reports/result'])
+#     pytest.main(['-v', 'test_postRequestJson.py'])
