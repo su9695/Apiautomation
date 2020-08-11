@@ -21,16 +21,18 @@
   <component name="ChangeListManager">
     <list default="true" id="0506bbe0-9e26-4b10-a858-2d4ebe38a814" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/config/config.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/log-2020-08-08.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_case/blackList/blackReason.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_case/blackList/isBlack.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_case/test_getRequestJson.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_case/test_mainExcel.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_case/test_postRequestJson.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_data/exceldata/case1.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/handle_check.py" beforeDir="false" afterPath="$PROJECT_DIR$/util/handle_comparators.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/handle_excelconfig.py" beforeDir="false" afterPath="$PROJECT_DIR$/util/handle_excelconfig.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/base_request.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/base_request.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log-2020-08-11.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_case/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_case/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_case/testRequest/test_getRequestJson.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_case/testRequest/test_getRequestJson.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_case/testRequest/test_mainExcel.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_case/testRequest/test_mainExcel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_case/testRequest/test_postRequestJson.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_case/testRequest/test_postRequestJson.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/exceldata/case1.xls" beforeDir="false" afterPath="$PROJECT_DIR$/test_data/exceldata/case1.xls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/jsondata/testRequest/getRequest.json" beforeDir="false" afterPath="$PROJECT_DIR$/test_data/jsondata/testRequest/getRequest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_data/jsondata/testRequest/postRequest.json" beforeDir="false" afterPath="$PROJECT_DIR$/test_data/jsondata/testRequest/postRequest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_main/run_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_main/run_main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/handle_apirequest.py" beforeDir="false" afterPath="$PROJECT_DIR$/util/handle_apirequest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/handle_comparators.py" beforeDir="false" afterPath="$PROJECT_DIR$/util/handle_comparators.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/util/handle_getexceldata.py" beforeDir="false" afterPath="$PROJECT_DIR$/util/handle_getexceldata.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +83,7 @@
       <recent name="D:\ApiAuto\Apiautomation\test_data\jsondata\blackList" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test_mainExcel">
+  <component name="RunManager" selected="Python.test_getRequestJson">
     <configuration name="base_request" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Apiautomation" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -96,6 +98,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/base/base_request.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="handle_apirequest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Apiautomation" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/util" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/util/handle_apirequest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -148,28 +172,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_mainExcel" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Apiautomation" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/test_case/testRequest" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test_case/testRequest/test_mainExcel.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="test_postRequestJson" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Apiautomation" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -194,11 +196,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test_mainExcel" />
         <item itemvalue="Python.test_getRequestJson" />
-        <item itemvalue="Python.handle_comparators" />
         <item itemvalue="Python.test_postRequestJson" />
+        <item itemvalue="Python.handle_comparators" />
         <item itemvalue="Python.base_request" />
+        <item itemvalue="Python.handle_apirequest" />
       </list>
     </recent_temporary>
   </component>
@@ -247,7 +249,7 @@
       <workItem from="1596676184003" duration="21364000" />
       <workItem from="1596764025446" duration="25185000" />
       <workItem from="1597021223245" duration="10654000" />
-      <workItem from="1597107927518" duration="1622000" />
+      <workItem from="1597107927518" duration="17984000" />
     </task>
     <servers />
   </component>
@@ -305,10 +307,10 @@
       <screen x="1920" y="0" width="1440" height="860" />
     </state>
     <state x="2338" y="39" key="#handle_checkresult/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1594693487552" />
-    <state width="1058" height="347" key="DebuggerActiveHint" timestamp="1597108564524">
+    <state width="1058" height="347" key="DebuggerActiveHint" timestamp="1597135235845">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1058" height="347" key="DebuggerActiveHint/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1597108564524" />
+    <state width="1058" height="347" key="DebuggerActiveHint/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1597135235845" />
     <state width="982" height="466" key="DebuggerActiveHint/0.0.2560.1400@0.0.2560.1400" timestamp="1596864925708" />
     <state x="889" y="302" key="FileChooserDialogImpl" timestamp="1596870751994">
       <screen x="0" y="0" width="2560" height="1400" />
@@ -316,53 +318,53 @@
     <state x="667" y="224" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1596791423021" />
     <state x="2420" y="185" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1596594903133" />
     <state x="889" y="302" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1596870751994" />
-    <state width="1877" height="230" key="GridCell.Tab.0.bottom" timestamp="1597109538448">
+    <state width="1877" height="340" key="GridCell.Tab.0.bottom" timestamp="1597136334841">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="230" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1597109538448" />
-    <state width="1397" height="230" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1597049939908" />
+    <state width="1877" height="340" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1597136334841" />
+    <state width="1397" height="230" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1597114749957" />
     <state width="2517" height="210" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1596867283630" />
-    <state width="1877" height="230" key="GridCell.Tab.0.center" timestamp="1597109538448">
+    <state width="1877" height="340" key="GridCell.Tab.0.center" timestamp="1597136334840">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="230" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1597109538448" />
-    <state width="1397" height="230" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1597049939908" />
+    <state width="1877" height="340" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1597136334840" />
+    <state width="1397" height="230" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1597114749957" />
     <state width="2517" height="210" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1596867283630" />
-    <state width="1877" height="230" key="GridCell.Tab.0.left" timestamp="1597109538448">
+    <state width="1877" height="340" key="GridCell.Tab.0.left" timestamp="1597136334840">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="230" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1597109538448" />
-    <state width="1397" height="230" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1597049939908" />
+    <state width="1877" height="340" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1597136334840" />
+    <state width="1397" height="230" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1597114749957" />
     <state width="2517" height="210" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1596867283630" />
-    <state width="1877" height="230" key="GridCell.Tab.0.right" timestamp="1597109538448">
+    <state width="1877" height="340" key="GridCell.Tab.0.right" timestamp="1597136334840">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="230" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1597109538448" />
-    <state width="1397" height="230" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1597049939908" />
+    <state width="1877" height="340" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1597136334840" />
+    <state width="1397" height="230" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1597114749957" />
     <state width="2517" height="210" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1596867283630" />
-    <state width="1877" height="343" key="GridCell.Tab.1.bottom" timestamp="1597108942413">
+    <state width="1877" height="385" key="GridCell.Tab.1.bottom" timestamp="1597135316524">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="343" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1597108942413" />
-    <state width="1397" height="276" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1596765052752" />
+    <state width="1877" height="385" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1597135316524" />
+    <state width="1397" height="271" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1597113923760" />
     <state width="2517" height="492" key="GridCell.Tab.1.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1596865078856" />
-    <state width="1877" height="343" key="GridCell.Tab.1.center" timestamp="1597108942413">
+    <state width="1877" height="385" key="GridCell.Tab.1.center" timestamp="1597135316524">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="343" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1597108942413" />
-    <state width="1397" height="276" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1596765052752" />
+    <state width="1877" height="385" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1597135316524" />
+    <state width="1397" height="271" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1597113923760" />
     <state width="2517" height="492" key="GridCell.Tab.1.center/0.0.2560.1400@0.0.2560.1400" timestamp="1596865078856" />
-    <state width="1877" height="343" key="GridCell.Tab.1.left" timestamp="1597108942413">
+    <state width="1877" height="385" key="GridCell.Tab.1.left" timestamp="1597135316524">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="343" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1597108942413" />
-    <state width="1397" height="276" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1596765052752" />
+    <state width="1877" height="385" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1597135316524" />
+    <state width="1397" height="271" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1597113923760" />
     <state width="2517" height="492" key="GridCell.Tab.1.left/0.0.2560.1400@0.0.2560.1400" timestamp="1596865078856" />
-    <state width="1877" height="343" key="GridCell.Tab.1.right" timestamp="1597108942413">
+    <state width="1877" height="385" key="GridCell.Tab.1.right" timestamp="1597135316524">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="343" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1597108942413" />
-    <state width="1397" height="276" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1596765052752" />
+    <state width="1877" height="385" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1597135316524" />
+    <state width="1397" height="271" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1597113923760" />
     <state width="2517" height="492" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1596865078856" />
     <state x="2141" y="74" key="SettingsEditor" timestamp="1597049792066">
       <screen x="1920" y="0" width="1440" height="860" />
@@ -372,32 +374,44 @@
       <screen x="1920" y="0" width="1440" height="860" />
     </state>
     <state x="2184" y="159" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1596765050340" />
-    <state x="563" y="34" width="795" height="973" key="find.popup" timestamp="1597048163931">
+    <state x="563" y="34" width="795" height="973" key="find.popup" timestamp="1597124640873">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="563" y="34" width="795" height="973" key="find.popup/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1597048163931" />
+    <state x="563" y="34" width="795" height="973" key="find.popup/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1597124640873" />
     <state x="2342" y="28" width="638" height="804" key="find.popup/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1596706055350" />
     <state x="751" y="46" width="1060" height="1310" key="find.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1596863657081" />
-    <state x="511" y="218" width="896" height="820" key="search.everywhere.popup" timestamp="1596790044282">
+    <state x="511" y="218" width="896" height="820" key="search.everywhere.popup" timestamp="1597133029703">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="511" y="218" width="896" height="820" key="search.everywhere.popup/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1596790044282" />
+    <state x="511" y="218" width="896" height="820" key="search.everywhere.popup/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1597133029703" />
     <state x="2303" y="180" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1596765337990" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/util/handle_apirequest.py</url>
+          <line>48</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Apiautomation$handle_yaml.coverage" NAME="handle_yaml Coverage Results" MODIFIED="1592304684481" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
     <SUITE FILE_PATH="coverage/Apiautomation$handle_check.coverage" NAME="handle_check Coverage Results" MODIFIED="1595990462618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
     <SUITE FILE_PATH="coverage/Apiautomation$handle_excelconfig.coverage" NAME="handle_excelconfig Coverage Results" MODIFIED="1596705768920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
     <SUITE FILE_PATH="coverage/Apiautomation$handle_apirequest__1_.coverage" NAME="handle_apirequest (1) Coverage Results" MODIFIED="1593759286943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
-    <SUITE FILE_PATH="coverage/Apiautomation$test_getRequestJson.coverage" NAME="test_getRequestJson Coverage Results" MODIFIED="1597055508556" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/testRequest" />
+    <SUITE FILE_PATH="coverage/Apiautomation$test_getRequestJson.coverage" NAME="test_getRequestJson Coverage Results" MODIFIED="1597136299954" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/testRequest" />
     <SUITE FILE_PATH="coverage/Apiautomation$Test.coverage" NAME="Test Coverage Results" MODIFIED="1595927034245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
-    <SUITE FILE_PATH="coverage/Apiautomation$base_request.coverage" NAME="base_request Coverage Results" MODIFIED="1597048262164" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base" />
-    <SUITE FILE_PATH="coverage/Apiautomation$test_mainExcel.coverage" NAME="test_mainExcel Coverage Results" MODIFIED="1597109538440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/testRequest" />
+    <SUITE FILE_PATH="coverage/Apiautomation$test_mainExcel.coverage" NAME="test_mainExcel Coverage Results" MODIFIED="1597125808294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/testRequest" />
+    <SUITE FILE_PATH="coverage/Apiautomation$base_request.coverage" NAME="base_request Coverage Results" MODIFIED="1597132347025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base" />
     <SUITE FILE_PATH="coverage/Apiautomation$isBlack.coverage" NAME="isBlack Coverage Results" MODIFIED="1596866421319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/blackList" />
-    <SUITE FILE_PATH="coverage/Apiautomation$handle_comparators.coverage" NAME="handle_comparators Coverage Results" MODIFIED="1597054016700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
+    <SUITE FILE_PATH="coverage/Apiautomation$handle_comparators.coverage" NAME="handle_comparators Coverage Results" MODIFIED="1597134088769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
     <SUITE FILE_PATH="coverage/Apiautomation$handle_checkresult.coverage" NAME="handle_checkresult Coverage Results" MODIFIED="1594693547818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
-    <SUITE FILE_PATH="coverage/Apiautomation$handle_apirequest.coverage" NAME="handle_apirequest Coverage Results" MODIFIED="1596865116576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
-    <SUITE FILE_PATH="coverage/Apiautomation$test_postRequestJson.coverage" NAME="test_postRequestJson Coverage Results" MODIFIED="1597049939902" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/testRequest" />
+    <SUITE FILE_PATH="coverage/Apiautomation$handle_apirequest.coverage" NAME="handle_apirequest Coverage Results" MODIFIED="1597131923381" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
+    <SUITE FILE_PATH="coverage/Apiautomation$test_postRequestJson.coverage" NAME="test_postRequestJson Coverage Results" MODIFIED="1597134118650" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/testRequest" />
+    <SUITE FILE_PATH="coverage/Apiautomation$run_main.coverage" NAME="run_main Coverage Results" MODIFIED="1597125827856" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_main" />
     <SUITE FILE_PATH="coverage/Apiautomation$test_getRequestYaml.coverage" NAME="test_getRequestYaml Coverage Results" MODIFIED="1592305937688" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
     <SUITE FILE_PATH="coverage/Apiautomation$handle_excel.coverage" NAME="handle_excel Coverage Results" MODIFIED="1596682474710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
     <SUITE FILE_PATH="coverage/Apiautomation$api_request.coverage" NAME="api_request Coverage Results" MODIFIED="1593599967713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />

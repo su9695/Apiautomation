@@ -31,9 +31,9 @@
             },
             "validate":[
                 {
-                    "check":"status_code",
+                    "check":"msg",
                     "comparator":"eq",
-                    "expect":"200"
+                    "expect":"success"
                 }
             ]
         }

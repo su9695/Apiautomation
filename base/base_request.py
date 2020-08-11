@@ -45,8 +45,7 @@ class BaseRequest:
                 result = self.send_get(url, data, header, cookie)
             elif method.upper() == 'POST':
                 result = self.send_post(url, data, header, cookie)
-            res = result.json()
-            return res
+            return result
         except Exception as e:
             logger.exception('请求主函数调用失败：{}'.format(e))
 

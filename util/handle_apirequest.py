@@ -49,7 +49,7 @@ class ApiRequest:
             response_data = baseRequest.run_main(get_method, get_url, get_case_params, get_headers)
         except Exception as e:
             logger.exception('用例请求返回失败，{}'.format(e))
-        logger.info('请求接口名：%r，请求接口用例名：%r，返回参数：%r' % (get_name, get_case_name, response_data))
+        logger.info('请求接口名：%r，请求接口用例名：%r，返回参数：%r' % (get_name, get_case_name, response_data.json()))
         return response_data
 
 

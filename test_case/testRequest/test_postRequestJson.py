@@ -21,14 +21,14 @@ baseFileName = BasePath + '/test_data/jsondata/testRequest/postRequest.json'
 testCaseData = handle_jsonData.load_json(baseFileName)
 
 
-@allure.feature('测试模块')
+@allure.feature('测试POST请求模块')
 class TestRequestOne():
     @allure.title('测试标题')
     @allure.testcase('测试地址：https://fanyi.baidu.com')
     @pytest.mark.parametrize('case_data', testCaseData['testcase'])
     def test_requestOne(self, case_data):
         try:
-            api_response_data = apiRequest.api_request(baseurl, testCaseData, case_data)
+            api_response = apiRequest.api_request(baseurl, testCaseData, case_data)
             # pactverity——全量契约校验
             config_contract_format = Like({
                 "error": 0,
@@ -37,7 +37,7 @@ class TestRequestOne():
             })
             mPactVerify = PactVerify(config_contract_format)
             try:
-                mPactVerify.verify(api_response_data)
+                mPactVerify.verify(api_response.json())
                 logger.info(
                     'verify_result：{}，verify_info:{}'.format(mPactVerify.verify_result, mPactVerify.verify_info))
                 assert mPactVerify.verify_result == True
@@ -50,7 +50,7 @@ class TestRequestOne():
                     logger.info('断言期望相关参数：check：{},comparator：{},expect：{}'.format(case_validate['check'],
                                                                                    case_validate['comparator'],
                                                                                    case_validate['expect']))
-                    comparatorsTest.comparators_Assert(api_response_data, case_validate['check'],
+                    comparatorsTest.comparators_Assert(api_response, case_validate['check'],
                                                        case_validate['comparator'], case_validate['expect'])
                     logger.info('测试用例断言成功')
             except Exception as e:
@@ -63,5 +63,5 @@ class TestRequestOne():
 TestRequestOne()
 
 # if __name__ == "__main__":
-#     pytest.main(['-s', '-v', 'test_postRequestJson.py', '-q', '--alluredir', '../reports/result'])
-#     pytest.main(['-v', 'test_postRequestJson.py'])
+#     pytest.main(['-s', '-v', 'test_postRequestJson.py', '-q', '--alluredir', '../../reports/result'])
+#     # pytest.main(['-v', 'test_postRequestJson.py'])

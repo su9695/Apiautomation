@@ -2,6 +2,7 @@
 from util.handle_exceldata import OperationExcel
 from util.handle_excelconfig import *
 
+
 class GetData:
     def __init__(self, file_name, sheet_id):
         self.opera_excel = OperationExcel(file_name, sheet_id)
@@ -9,6 +10,12 @@ class GetData:
     # 去获取excel行数,就是我们的case个数
     def get_case_lines(self):
         return self.opera_excel.get_lines()
+
+    # 获取接口模块名
+    def get_name(self, row):
+        col = int(get_request_name())
+        request_name = self.opera_excel.get_cell_value(row, col)
+        return request_name
 
     # 获取是否执行
     def get_is_run(self, row):

@@ -14,7 +14,7 @@
         {
             "name":"测试用例1",
             "params":{
-                "words":"Test"
+                "words":"java"
             },
             "validate":[
                 {
