@@ -60,12 +60,12 @@
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\ApiTestProject\Apiautomation\test_data\exceldata" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\ApiAuto\Apiautomation\test_case\testRequest" />
       <recent name="D:\ApiAuto\Apiautomation\test_data\jsondata\blackList" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\ApiTestProject\Apiautomation\test_data\exceldata" />
     </key>
   </component>
   <component name="RunManager" selected="Python.test_getRequestJson">
