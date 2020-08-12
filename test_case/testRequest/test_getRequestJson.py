@@ -65,6 +65,6 @@ class TestRequestOne():
 # 调用class
 TestRequestOne()
 
-# if __name__ == "__main__":
-#     # 生成配置信息 "-s 代表可以将执行成功的案例日志打印出来 ; -q+文件执行路径 代表只需要执行的文件"
-#     pytest.main(['-s', '-v', 'test_getRequestJson.py', '-q', '--alluredir', '../../reports/result'])
+if __name__ == "__main__":
+    # 生成配置信息 "-s 代表可以将执行成功的案例日志打印出来 ; -q+文件执行路径 代表只需要执行的文件"
+    pytest.main(['-s', '-v', 'test_getRequestJson.py', '-q', '--alluredir', '../../reports/result'])
