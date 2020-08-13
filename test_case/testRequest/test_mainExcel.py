@@ -14,7 +14,7 @@ from base.base_request import baseRequest
 from util.handle_init import handle_ini
 from util.handle_log import run_log as logger
 
-file_name = root_path + 'test_data/exceldata/case1.xls'
+file_name = 'D:/ApiAuto/Apiautomation/test_data/exceldata/case1.xls'
 sheet_id = 0
 
 

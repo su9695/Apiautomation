@@ -62,3 +62,29 @@
 [2020-08-13 16:12:49.476253] [INFO] [test_getRequestJson.py] [test_requestOne] [46] verify_result：True，verify_info:{}
 [2020-08-13 16:12:49.477250] [INFO] [test_getRequestJson.py] [test_requestOne] [56] 断言期望相关参数：check：msg,comparator：eq,expect：成功
 [2020-08-13 16:12:49.477250] [INFO] [test_getRequestJson.py] [test_requestOne] [59] 测试用例断言成功
+[2020-08-13 16:19:04.381467] [INFO] [handle_init.py] [get_value] [28] 获取配置文件的值，node：imooc,key：apiurl, data：https://www.imooc.com
+[2020-08-13 16:19:04.422358] [INFO] [handle_init.py] [get_value] [28] 获取配置文件的值，node：baidu,key：baidufanyiurl, data：https://fanyi.baidu.com
+[2020-08-13 16:19:04.428343] [INFO] [handle_apirequest.py] [api_request] [42] 请求接口名：'get接口名'，请求地址：'https://www.imooc.com/search/history'，请求方法：'GET'，请求头：{'Content-Type': 'application/json'}，请求Cookies：{}
+[2020-08-13 16:19:04.428343] [INFO] [handle_apirequest.py] [api_request] [43] 请求接口名：'get接口名'，请求接口用例名：'测试用例1'，接口用例请求参数：{'words': 'java'}
+[2020-08-13 16:19:04.845486] [INFO] [handle_apirequest.py] [api_request] [48] 请求接口名：'get接口名'，请求接口用例名：'测试用例1'，返回参数：{'result': 0, 'data': [{'word': 'java'}, {'word': 'java入门'}, {'word': 'javascript'}, {'word': 'javaweb'}], 'msg': '成功'}
+[2020-08-13 16:19:04.849476] [INFO] [test_getRequestJson.py] [test_requestOne] [45] verify_result：True，verify_info:{}
+[2020-08-13 16:19:04.849476] [INFO] [test_getRequestJson.py] [test_requestOne] [55] 断言期望相关参数：check：msg,comparator：eq,expect：成功
+[2020-08-13 16:19:04.849476] [INFO] [test_getRequestJson.py] [test_requestOne] [58] 测试用例断言成功
+[2020-08-13 16:19:04.854464] [INFO] [handle_apirequest.py] [api_request] [42] 请求接口名：'get接口名'，请求地址：'https://www.imooc.com/search/history'，请求方法：'GET'，请求头：{'Content-Type': 'application/json'}，请求Cookies：{}
+[2020-08-13 16:19:04.854464] [INFO] [handle_apirequest.py] [api_request] [43] 请求接口名：'get接口名'，请求接口用例名：'测试用例2'，接口用例请求参数：{'words': 'python'}
+[2020-08-13 16:19:05.089193] [INFO] [handle_apirequest.py] [api_request] [48] 请求接口名：'get接口名'，请求接口用例名：'测试用例2'，返回参数：{'result': 0, 'data': [{'word': 'python'}, {'word': 'python入门'}, {'word': 'python爬虫'}, {'word': 'python3'}, {'word': 'python数据分析'}], 'msg': '成功'}
+[2020-08-13 16:19:05.089193] [INFO] [test_getRequestJson.py] [test_requestOne] [45] verify_result：True，verify_info:{}
+[2020-08-13 16:19:05.089193] [INFO] [test_getRequestJson.py] [test_requestOne] [55] 断言期望相关参数：check：msg,comparator：eq,expect：成功
+[2020-08-13 16:19:05.089193] [INFO] [test_getRequestJson.py] [test_requestOne] [58] 测试用例断言成功
+[2020-08-13 16:19:05.143043] [INFO] [handle_apirequest.py] [api_request] [42] 请求接口名：'post接口名'，请求地址：'https://fanyi.baidu.com/langdetect'，请求方法：'POST'，请求头：{'Content-Type': 'application/json'}，请求Cookies：{}
+[2020-08-13 16:19:05.144024] [INFO] [handle_apirequest.py] [api_request] [43] 请求接口名：'post接口名'，请求接口用例名：'测试用例1'，接口用例请求参数：{'query': '测试'}
+[2020-08-13 16:19:05.404209] [INFO] [handle_apirequest.py] [api_request] [48] 请求接口名：'post接口名'，请求接口用例名：'测试用例1'，返回参数：{'error': 0, 'msg': 'success', 'lan': 'zh'}
+[2020-08-13 16:19:05.404209] [INFO] [test_postRequestJson.py] [test_requestOne] [43] verify_result：True，verify_info:{}
+[2020-08-13 16:19:05.404209] [INFO] [test_postRequestJson.py] [test_requestOne] [53] 断言期望相关参数：check：status_code,comparator：eq,expect：200
+[2020-08-13 16:19:05.404209] [INFO] [test_postRequestJson.py] [test_requestOne] [56] 测试用例断言成功
+[2020-08-13 16:19:05.409165] [INFO] [handle_apirequest.py] [api_request] [42] 请求接口名：'post接口名'，请求地址：'https://fanyi.baidu.com/langdetect'，请求方法：'POST'，请求头：{'Content-Type': 'application/json'}，请求Cookies：{}
+[2020-08-13 16:19:05.409165] [INFO] [handle_apirequest.py] [api_request] [43] 请求接口名：'post接口名'，请求接口用例名：'测试用例2'，接口用例请求参数：{'query': 'python'}
+[2020-08-13 16:19:05.564650] [INFO] [handle_apirequest.py] [api_request] [48] 请求接口名：'post接口名'，请求接口用例名：'测试用例2'，返回参数：{'error': 0, 'msg': 'success', 'lan': 'en'}
+[2020-08-13 16:19:05.564650] [INFO] [test_postRequestJson.py] [test_requestOne] [43] verify_result：True，verify_info:{}
+[2020-08-13 16:19:05.564650] [INFO] [test_postRequestJson.py] [test_requestOne] [53] 断言期望相关参数：check：msg,comparator：eq,expect：success
+[2020-08-13 16:19:05.564650] [INFO] [test_postRequestJson.py] [test_requestOne] [56] 测试用例断言成功

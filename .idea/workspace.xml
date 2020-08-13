@@ -22,9 +22,7 @@
     <list default="true" id="0506bbe0-9e26-4b10-a858-2d4ebe38a814" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/log/log-2020-08-13.log" beforeDir="false" afterPath="$PROJECT_DIR$/log/log-2020-08-13.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_case/testRequest/test_getRequestJson.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_case/testRequest/test_getRequestJson.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_case/testRequest/test_mainExcel.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_case/testRequest/test_mainExcel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_case/testRequest/test_postRequestJson.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_case/testRequest/test_postRequestJson.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
