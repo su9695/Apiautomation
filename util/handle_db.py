@@ -1,9 +1,11 @@
 import pymysql
 import json
 import sys
+import os
 
 sys.path.append('../')
 sys.path.append('../Apiautomation')
+curPath = os.path.abspath(os.path.dirname(__file__))
 from util.handle_init import handle_ini
 from util.handle_log import run_log as logger
 

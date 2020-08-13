@@ -1,8 +1,11 @@
 # coding=utf-8
 import sys
 import json
+import os
 
 sys.path.append('../')
+sys.path.append('../Apiautomation')
+curPath = os.path.abspath(os.path.dirname(__file__))
 
 
 class HandleJson:

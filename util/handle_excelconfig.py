@@ -1,4 +1,11 @@
 # coding:utf-8
+import sys
+import os
+
+sys.path.append('../')
+sys.path.append('../Apiautomation')
+curPath = os.path.abspath(os.path.dirname(__file__))
+
 class global_var:
     Id = '0'
     request_name = '1'

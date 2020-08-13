@@ -2,7 +2,10 @@
 import os
 import sys
 import logbook
+import os
 
+sys.path.append('../')
+sys.path.append('../Apiautomation')
 curPath = os.path.abspath(os.path.dirname(__file__))
 BasePath = curPath[:curPath.find("Apiautomation\\") + len("Apiautomation\\")]
 from logbook import Logger, StreamHandler, FileHandler, TimedRotatingFileHandler

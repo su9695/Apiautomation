@@ -1,9 +1,9 @@
 # coding:utf-8
-import pytest
-import json
 import sys
 import os
-
+sys.path.append('../')
+sys.path.append('../Apiautomation')
+curPath = os.path.abspath(os.path.dirname(__file__))
 
 class comparators():
     def assertEqual(self, result, check, expect):

@@ -1,7 +1,12 @@
 # coding:utf-8
 import xlrd
 from xlutils.copy import copy
+import sys
+import os
 
+sys.path.append('../')
+sys.path.append('../Apiautomation')
+curPath = os.path.abspath(os.path.dirname(__file__))
 
 class OperationExcel:
     def __init__(self, file_name=None, sheet_id=None):

@@ -1,10 +1,6 @@
 # coding:utf-8
-import requests
-import pytest
-import json
 import sys
 import os
-import configparser
 import allure
 
 sys.path.append('../')
