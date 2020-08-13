@@ -21,8 +21,18 @@
   <component name="ChangeListManager">
     <list default="true" id="0506bbe0-9e26-4b10-a858-2d4ebe38a814" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_case/testRequest/test_getRequestJson.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_case/testRequest/test_getRequestJson.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/util/handle_dapendentdata.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Python+Pytest+Allure+Jenkins接口自动化框架.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/Python+Pytest+Allure+Jenkins接口自动化框架.xmind" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/base/base_request.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/base_request.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log/log-2020-08-12.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/result/0e7b9c23-06a7-44fe-bd18-47c42d459527-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/result/421e8a51-1540-4606-b43f-fa011b681f62-attachment.attach" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/result/4f967940-c0ed-4b4b-b258-c2691df88d03-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/result/78a4a9f0-5214-4f96-a316-e6987078a988-attachment.attach" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/result/a948c4fc-819f-4a06-8e37-4de7989235d4-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/result/c159a003-1a0c-4b07-80eb-ba8fa7d2e1d6-attachment.attach" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/result/e5c6bfd1-78f2-4326-90c8-7f97d1ed58c4-attachment.attach" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reports/result/fac7c5c4-a367-499c-8766-a8d238594617-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_main/run_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_main/run_main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +71,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -309,28 +319,28 @@
     <state x="667" y="224" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1596791423021" />
     <state x="2420" y="185" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1596594903133" />
     <state x="889" y="302" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1596870751994" />
-    <state width="1877" height="113" key="GridCell.Tab.0.bottom" timestamp="1597214104312">
+    <state width="1877" height="493" key="GridCell.Tab.0.bottom" timestamp="1597289946749">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="113" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1597214104312" />
+    <state width="1877" height="493" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1597289946749" />
     <state width="1397" height="230" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1597114749957" />
     <state width="2517" height="210" key="GridCell.Tab.0.bottom/0.0.2560.1400@0.0.2560.1400" timestamp="1596867283630" />
-    <state width="1877" height="113" key="GridCell.Tab.0.center" timestamp="1597214104312">
+    <state width="1877" height="493" key="GridCell.Tab.0.center" timestamp="1597289946749">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="113" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1597214104312" />
+    <state width="1877" height="493" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1597289946749" />
     <state width="1397" height="230" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1597114749957" />
     <state width="2517" height="210" key="GridCell.Tab.0.center/0.0.2560.1400@0.0.2560.1400" timestamp="1596867283630" />
-    <state width="1877" height="113" key="GridCell.Tab.0.left" timestamp="1597214104312">
+    <state width="1877" height="493" key="GridCell.Tab.0.left" timestamp="1597289946749">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="113" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1597214104312" />
+    <state width="1877" height="493" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1597289946749" />
     <state width="1397" height="230" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1597114749957" />
     <state width="2517" height="210" key="GridCell.Tab.0.left/0.0.2560.1400@0.0.2560.1400" timestamp="1596867283630" />
-    <state width="1877" height="113" key="GridCell.Tab.0.right" timestamp="1597214104312">
+    <state width="1877" height="493" key="GridCell.Tab.0.right" timestamp="1597289946749">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="113" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1597214104312" />
+    <state width="1877" height="493" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1597289946749" />
     <state width="1397" height="230" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1597114749957" />
     <state width="2517" height="210" key="GridCell.Tab.0.right/0.0.2560.1400@0.0.2560.1400" timestamp="1596867283630" />
     <state width="1877" height="385" key="GridCell.Tab.1.bottom" timestamp="1597135316524">
@@ -357,9 +367,10 @@
     <state width="1877" height="385" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1597135316524" />
     <state width="1397" height="271" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1597113923760" />
     <state width="2517" height="492" key="GridCell.Tab.1.right/0.0.2560.1400@0.0.2560.1400" timestamp="1596865078856" />
-    <state x="2141" y="74" key="SettingsEditor" timestamp="1597049792066">
-      <screen x="1920" y="0" width="1440" height="860" />
+    <state x="295" y="89" key="SettingsEditor" timestamp="1597300902311">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="295" y="89" key="SettingsEditor/0.0.1920.1040/1920.0.1440.860@0.0.1920.1040" timestamp="1597300902311" />
     <state x="2141" y="74" key="SettingsEditor/0.0.1920.1040/1920.0.1440.860@1920.0.1440.860" timestamp="1597049792066" />
     <state x="2184" y="159" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1596765050340">
       <screen x="1920" y="0" width="1440" height="860" />
@@ -382,7 +393,7 @@
     <SUITE FILE_PATH="coverage/Apiautomation$handle_check.coverage" NAME="handle_check Coverage Results" MODIFIED="1595990462618" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
     <SUITE FILE_PATH="coverage/Apiautomation$handle_excelconfig.coverage" NAME="handle_excelconfig Coverage Results" MODIFIED="1596705768920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
     <SUITE FILE_PATH="coverage/Apiautomation$handle_apirequest__1_.coverage" NAME="handle_apirequest (1) Coverage Results" MODIFIED="1593759286943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
-    <SUITE FILE_PATH="coverage/Apiautomation$test_getRequestJson.coverage" NAME="test_getRequestJson Coverage Results" MODIFIED="1597203468203" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/testRequest" />
+    <SUITE FILE_PATH="coverage/Apiautomation$test_getRequestJson.coverage" NAME="test_getRequestJson Coverage Results" MODIFIED="1597289941144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/testRequest" />
     <SUITE FILE_PATH="coverage/Apiautomation$Test.coverage" NAME="Test Coverage Results" MODIFIED="1595927034245" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case" />
     <SUITE FILE_PATH="coverage/Apiautomation$test_mainExcel.coverage" NAME="test_mainExcel Coverage Results" MODIFIED="1597125808294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_case/testRequest" />
     <SUITE FILE_PATH="coverage/Apiautomation$base_request.coverage" NAME="base_request Coverage Results" MODIFIED="1597132347025" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/base" />
