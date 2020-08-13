@@ -1,2 +1,64 @@
 [2020-08-13 14:54:12.954851] [INFO] [handle_init.py] [get_value] [27] 获取配置文件的值，node：imooc,key：apiurl, data：https://www.imooc.com
 [2020-08-13 14:54:13.014691] [INFO] [handle_init.py] [get_value] [27] 获取配置文件的值，node：baidu,key：baidufanyiurl, data：https://fanyi.baidu.com
+[2020-08-13 15:19:27.524191] [INFO] [handle_init.py] [get_value] [28] 获取配置文件的值，node：imooc,key：apiurl, data：https://www.imooc.com
+[2020-08-13 15:19:27.586025] [INFO] [handle_init.py] [get_value] [28] 获取配置文件的值，node：baidu,key：baidufanyiurl, data：https://fanyi.baidu.com
+[2020-08-13 15:28:39.905619] [INFO] [handle_init.py] [get_value] [28] 获取配置文件的值，node：imooc,key：apiurl, data：https://www.imooc.com
+[2020-08-13 15:28:39.978426] [INFO] [handle_init.py] [get_value] [28] 获取配置文件的值，node：baidu,key：baidufanyiurl, data：https://fanyi.baidu.com
+[2020-08-13 15:47:19.884456] [INFO] [handle_init.py] [get_value] [28] 获取配置文件的值，node：imooc,key：apiurl, data：https://www.imooc.com
+[2020-08-13 15:47:19.955261] [INFO] [handle_init.py] [get_value] [28] 获取配置文件的值，node：baidu,key：baidufanyiurl, data：https://fanyi.baidu.com
+[2020-08-13 15:50:01.652924] [INFO] [handle_init.py] [get_value] [28] 获取配置文件的值，node：imooc,key：apiurl, data：https://www.imooc.com
+[2020-08-13 15:50:01.742686] [INFO] [handle_init.py] [get_value] [28] 获取配置文件的值，node：imooc,key：apiurl, data：https://www.imooc.com
+[2020-08-13 15:50:01.748670] [INFO] [handle_apirequest.py] [api_request] [42] 请求接口名：'get接口名'，请求地址：'https://www.imooc.com/search/history'，请求方法：'GET'，请求头：{'Content-Type': 'application/json'}，请求Cookies：{}
+[2020-08-13 15:50:01.748670] [INFO] [handle_apirequest.py] [api_request] [43] 请求接口名：'get接口名'，请求接口用例名：'测试用例1'，接口用例请求参数：{'words': 'java'}
+[2020-08-13 15:50:02.018955] [INFO] [handle_apirequest.py] [api_request] [48] 请求接口名：'get接口名'，请求接口用例名：'测试用例1'，返回参数：{'result': 0, 'data': [{'word': 'java'}, {'word': 'java入门'}, {'word': 'javascript'}, {'word': 'javaweb'}], 'msg': '成功'}
+[2020-08-13 15:50:02.018955] [INFO] [test_getRequestJson.py] [test_requestOne] [45] verify_result：True，verify_info:{}
+[2020-08-13 15:50:02.018955] [INFO] [test_getRequestJson.py] [test_requestOne] [55] 断言期望相关参数：check：msg,comparator：eq,expect：成功
+[2020-08-13 15:50:02.018955] [INFO] [test_getRequestJson.py] [test_requestOne] [58] 测试用例断言成功
+[2020-08-13 15:50:02.023942] [INFO] [handle_apirequest.py] [api_request] [42] 请求接口名：'get接口名'，请求地址：'https://www.imooc.com/search/history'，请求方法：'GET'，请求头：{'Content-Type': 'application/json'}，请求Cookies：{}
+[2020-08-13 15:50:02.023942] [INFO] [handle_apirequest.py] [api_request] [43] 请求接口名：'get接口名'，请求接口用例名：'测试用例2'，接口用例请求参数：{'words': 'python'}
+[2020-08-13 15:50:02.247449] [INFO] [handle_apirequest.py] [api_request] [48] 请求接口名：'get接口名'，请求接口用例名：'测试用例2'，返回参数：{'result': 0, 'data': [{'word': 'python'}, {'word': 'python入门'}, {'word': 'python爬虫'}, {'word': 'python3'}, {'word': 'python数据分析'}], 'msg': '成功'}
+[2020-08-13 15:50:02.247449] [INFO] [test_getRequestJson.py] [test_requestOne] [45] verify_result：True，verify_info:{}
+[2020-08-13 15:50:02.247449] [INFO] [test_getRequestJson.py] [test_requestOne] [55] 断言期望相关参数：check：msg,comparator：eq,expect：成功
+[2020-08-13 15:50:02.247449] [INFO] [test_getRequestJson.py] [test_requestOne] [58] 测试用例断言成功
+[2020-08-13 15:52:41.494190] [INFO] [handle_init.py] [get_value] [28] 获取配置文件的值，node：imooc,key：apiurl, data：https://www.imooc.com
+[2020-08-13 15:53:59.191022] [INFO] [handle_init.py] [get_value] [28] 获取配置文件的值，node：imooc,key：apiurl, data：https://www.imooc.com
+[2020-08-13 15:58:03.286914] [INFO] [handle_init.py] [get_value] [28] 获取配置文件的值，node：imooc,key：apiurl, data：https://www.imooc.com
+[2020-08-13 15:58:39.139961] [INFO] [handle_init.py] [get_value] [28] 获取配置文件的值，node：imooc,key：apiurl, data：https://www.imooc.com
+[2020-08-13 16:00:03.041016] [INFO] [handle_init.py] [get_value] [28] 获取配置文件的值，node：imooc,key：apiurl, data：https://www.imooc.com
+[2020-08-13 16:02:05.924557] [INFO] [handle_init.py] [get_value] [28] 获取配置文件的值，node：imooc,key：apiurl, data：https://www.imooc.com
+[2020-08-13 16:03:43.001700] [INFO] [handle_init.py] [get_value] [28] 获取配置文件的值，node：imooc,key：apiurl, data：https://www.imooc.com
+[2020-08-13 16:04:52.726767] [INFO] [handle_init.py] [get_value] [28] 获取配置文件的值，node：imooc,key：apiurl, data：https://www.imooc.com
+[2020-08-13 16:06:08.947064] [INFO] [handle_init.py] [get_value] [28] 获取配置文件的值，node：imooc,key：apiurl, data：https://www.imooc.com
+[2020-08-13 16:07:43.176203] [INFO] [handle_init.py] [get_value] [28] 获取配置文件的值，node：imooc,key：apiurl, data：https://www.imooc.com
+[2020-08-13 16:08:51.386080] [INFO] [handle_init.py] [get_value] [28] 获取配置文件的值，node：imooc,key：apiurl, data：https://www.imooc.com
+[2020-08-13 16:09:19.745437] [INFO] [handle_init.py] [get_value] [28] 获取配置文件的值，node：imooc,key：apiurl, data：https://www.imooc.com
+[2020-08-13 16:10:12.834748] [INFO] [handle_init.py] [get_value] [28] 获取配置文件的值，node：imooc,key：apiurl, data：https://www.imooc.com
+[2020-08-13 16:11:25.387461] [INFO] [handle_init.py] [get_value] [28] 获取配置文件的值，node：imooc,key：apiurl, data：https://www.imooc.com
+[2020-08-13 16:12:06.565755] [INFO] [handle_init.py] [get_value] [28] 获取配置文件的值，node：imooc,key：apiurl, data：https://www.imooc.com
+[2020-08-13 16:12:06.714330] [INFO] [handle_init.py] [get_value] [28] 获取配置文件的值，node：imooc,key：apiurl, data：https://www.imooc.com
+[2020-08-13 16:12:06.722309] [INFO] [handle_apirequest.py] [api_request] [42] 请求接口名：'get接口名'，请求地址：'https://www.imooc.com/search/history'，请求方法：'GET'，请求头：{'Content-Type': 'application/json'}，请求Cookies：{}
+[2020-08-13 16:12:06.723307] [INFO] [handle_apirequest.py] [api_request] [43] 请求接口名：'get接口名'，请求接口用例名：'测试用例1'，接口用例请求参数：{'words': 'java'}
+[2020-08-13 16:12:07.079583] [INFO] [handle_apirequest.py] [api_request] [48] 请求接口名：'get接口名'，请求接口用例名：'测试用例1'，返回参数：{'result': 0, 'data': [{'word': 'java'}, {'word': 'java入门'}, {'word': 'javascript'}, {'word': 'javaweb'}], 'msg': '成功'}
+[2020-08-13 16:12:07.080544] [INFO] [test_getRequestJson.py] [test_requestOne] [46] verify_result：True，verify_info:{}
+[2020-08-13 16:12:07.081542] [INFO] [test_getRequestJson.py] [test_requestOne] [56] 断言期望相关参数：check：msg,comparator：eq,expect：成功
+[2020-08-13 16:12:07.081542] [INFO] [test_getRequestJson.py] [test_requestOne] [59] 测试用例断言成功
+[2020-08-13 16:12:07.090552] [INFO] [handle_apirequest.py] [api_request] [42] 请求接口名：'get接口名'，请求地址：'https://www.imooc.com/search/history'，请求方法：'GET'，请求头：{'Content-Type': 'application/json'}，请求Cookies：{}
+[2020-08-13 16:12:07.092513] [INFO] [handle_apirequest.py] [api_request] [43] 请求接口名：'get接口名'，请求接口用例名：'测试用例2'，接口用例请求参数：{'words': 'python'}
+[2020-08-13 16:12:07.294237] [INFO] [handle_apirequest.py] [api_request] [48] 请求接口名：'get接口名'，请求接口用例名：'测试用例2'，返回参数：{'result': 0, 'data': [{'word': 'python'}, {'word': 'python入门'}, {'word': 'python爬虫'}, {'word': 'python3'}, {'word': 'python数据分析'}], 'msg': '成功'}
+[2020-08-13 16:12:07.296203] [INFO] [test_getRequestJson.py] [test_requestOne] [46] verify_result：True，verify_info:{}
+[2020-08-13 16:12:07.296203] [INFO] [test_getRequestJson.py] [test_requestOne] [56] 断言期望相关参数：check：msg,comparator：eq,expect：成功
+[2020-08-13 16:12:07.297200] [INFO] [test_getRequestJson.py] [test_requestOne] [59] 测试用例断言成功
+[2020-08-13 16:12:48.884252] [INFO] [handle_init.py] [get_value] [28] 获取配置文件的值，node：imooc,key：apiurl, data：https://www.imooc.com
+[2020-08-13 16:12:48.979000] [INFO] [handle_init.py] [get_value] [28] 获取配置文件的值，node：imooc,key：apiurl, data：https://www.imooc.com
+[2020-08-13 16:12:48.986978] [INFO] [handle_apirequest.py] [api_request] [42] 请求接口名：'get接口名'，请求地址：'https://www.imooc.com/search/history'，请求方法：'GET'，请求头：{'Content-Type': 'application/json'}，请求Cookies：{}
+[2020-08-13 16:12:48.986978] [INFO] [handle_apirequest.py] [api_request] [43] 请求接口名：'get接口名'，请求接口用例名：'测试用例1'，接口用例请求参数：{'words': 'java'}
+[2020-08-13 16:12:49.265931] [INFO] [handle_apirequest.py] [api_request] [48] 请求接口名：'get接口名'，请求接口用例名：'测试用例1'，返回参数：{'result': 0, 'data': [{'word': 'java'}, {'word': 'java入门'}, {'word': 'javascript'}, {'word': 'javaweb'}], 'msg': '成功'}
+[2020-08-13 16:12:49.266899] [INFO] [test_getRequestJson.py] [test_requestOne] [46] verify_result：True，verify_info:{}
+[2020-08-13 16:12:49.266899] [INFO] [test_getRequestJson.py] [test_requestOne] [56] 断言期望相关参数：check：msg,comparator：eq,expect：成功
+[2020-08-13 16:12:49.267896] [INFO] [test_getRequestJson.py] [test_requestOne] [59] 测试用例断言成功
+[2020-08-13 16:12:49.271886] [INFO] [handle_apirequest.py] [api_request] [42] 请求接口名：'get接口名'，请求地址：'https://www.imooc.com/search/history'，请求方法：'GET'，请求头：{'Content-Type': 'application/json'}，请求Cookies：{}
+[2020-08-13 16:12:49.272882] [INFO] [handle_apirequest.py] [api_request] [43] 请求接口名：'get接口名'，请求接口用例名：'测试用例2'，接口用例请求参数：{'words': 'python'}
+[2020-08-13 16:12:49.475255] [INFO] [handle_apirequest.py] [api_request] [48] 请求接口名：'get接口名'，请求接口用例名：'测试用例2'，返回参数：{'result': 0, 'data': [{'word': 'python'}, {'word': 'python入门'}, {'word': 'python爬虫'}, {'word': 'python3'}, {'word': 'python数据分析'}], 'msg': '成功'}
+[2020-08-13 16:12:49.476253] [INFO] [test_getRequestJson.py] [test_requestOne] [46] verify_result：True，verify_info:{}
+[2020-08-13 16:12:49.477250] [INFO] [test_getRequestJson.py] [test_requestOne] [56] 断言期望相关参数：check：msg,comparator：eq,expect：成功
+[2020-08-13 16:12:49.477250] [INFO] [test_getRequestJson.py] [test_requestOne] [59] 测试用例断言成功

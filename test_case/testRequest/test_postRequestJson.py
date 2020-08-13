@@ -5,10 +5,11 @@ import sys
 import os
 import allure
 
-sys.path.append('../')
-sys.path.append('D:/ApiAuto/Apiautomation')
 curPath = os.path.abspath(os.path.dirname(__file__))
-BasePath = curPath[:curPath.find("Apiautomation\\") + len("Apiautomation\\")]
+root_path = os.path.abspath(os.path.dirname(curPath) + os.path.sep + "../")
+sys.path.append(root_path)
+os.chdir(root_path)
+
 from util.handle_json import handle_jsonData
 from util.handle_init import handle_ini
 from util.handle_log import run_log as logger
@@ -17,7 +18,7 @@ from pactverify.matchers import Matcher, Like, EachLike, Term, Enum, PactVerify
 from util.handle_comparators import comparatorsTest
 
 baseurl = handle_ini.get_value('baidufanyiurl', 'baidu')
-baseFileName = BasePath + '/test_data/jsondata/testRequest/postRequest.json'
+baseFileName = root_path + '/test_data/jsondata/testRequest/postRequest.json'
 testCaseData = handle_jsonData.load_json(baseFileName)
 
 

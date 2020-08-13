@@ -5,16 +5,16 @@ import json
 import pytest
 import allure
 
-sys.path.append('../')
-sys.path.append('D:/ApiAuto/Apiautomation')
 curPath = os.path.abspath(os.path.dirname(__file__))
-BasePath = curPath[:curPath.find("Apiautomation\\") + len("Apiautomation\\")]
+root_path = os.path.abspath(os.path.dirname(curPath) + os.path.sep + "../")
+sys.path.append(root_path)
+os.chdir(root_path)
 from util.handle_getexceldata import GetData
 from base.base_request import baseRequest
 from util.handle_init import handle_ini
 from util.handle_log import run_log as logger
 
-file_name = 'test_data/exceldata/case1.xls'
+file_name = root_path + 'test_data/exceldata/case1.xls'
 sheet_id = 0
 
 
