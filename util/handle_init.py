@@ -4,6 +4,7 @@ import os
 import configparser
 
 sys.path.append('../')
+sys.path.append('../Apiautomation')
 curPath = os.path.abspath(os.path.dirname(__file__))
 BasePath = curPath[:curPath.find("Apiautomation\\") + len("Apiautomation\\")]
 from util.handle_log import run_log as logger

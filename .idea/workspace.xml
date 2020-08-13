@@ -21,18 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0506bbe0-9e26-4b10-a858-2d4ebe38a814" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Python+Pytest+Allure+Jenkins接口自动化框架.xmind" beforeDir="false" afterPath="$PROJECT_DIR$/Python+Pytest+Allure+Jenkins接口自动化框架.xmind" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/base/base_request.py" beforeDir="false" afterPath="$PROJECT_DIR$/base/base_request.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/log/log-2020-08-12.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/result/0e7b9c23-06a7-44fe-bd18-47c42d459527-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/result/421e8a51-1540-4606-b43f-fa011b681f62-attachment.attach" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/result/4f967940-c0ed-4b4b-b258-c2691df88d03-container.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/result/78a4a9f0-5214-4f96-a316-e6987078a988-attachment.attach" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/result/a948c4fc-819f-4a06-8e37-4de7989235d4-result.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/result/c159a003-1a0c-4b07-80eb-ba8fa7d2e1d6-attachment.attach" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/result/e5c6bfd1-78f2-4326-90c8-7f97d1ed58c4-attachment.attach" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reports/result/fac7c5c4-a367-499c-8766-a8d238594617-container.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/test_main/run_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_main/run_main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/handle_init.py" beforeDir="false" afterPath="$PROJECT_DIR$/util/handle_init.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

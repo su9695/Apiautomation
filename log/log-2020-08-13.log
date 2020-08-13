@@ -1,0 +1,2 @@
+[2020-08-13 14:54:12.954851] [INFO] [handle_init.py] [get_value] [27] 获取配置文件的值，node：imooc,key：apiurl, data：https://www.imooc.com
+[2020-08-13 14:54:13.014691] [INFO] [handle_init.py] [get_value] [27] 获取配置文件的值，node：baidu,key：baidufanyiurl, data：https://fanyi.baidu.com
