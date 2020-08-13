@@ -3,7 +3,7 @@ import sys
 import os
 
 sys.path.append('../')
-sys.path.append('../Apiautomation')
+sys.path.append('D:/ApiAuto/Apiautomation')
 curPath = os.path.abspath(os.path.dirname(__file__))
 
 class global_var:

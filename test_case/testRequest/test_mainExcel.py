@@ -6,7 +6,7 @@ import pytest
 import allure
 
 sys.path.append('../')
-sys.path.append('../Apiautomation')
+sys.path.append('D:/ApiAuto/Apiautomation')
 curPath = os.path.abspath(os.path.dirname(__file__))
 BasePath = curPath[:curPath.find("Apiautomation\\") + len("Apiautomation\\")]
 from util.handle_getexceldata import GetData
